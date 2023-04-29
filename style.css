@@ -36,7 +36,7 @@ body {
 	font-size: 19pt;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
 	#home {
 		min-height: 100%;
 	}
@@ -339,20 +339,24 @@ th {
 	display:block;
 }
 
-#registration input,textarea {
+.topo-one-line-input, .topo-mult-line-input {
+	font-family: "Roboto Mono";
 	background-position: 10px 12px;
 	background-repeat: no-repeat;
 	margin: 5px 00px 15px 0px;
 	padding: 8px 8px 8px 8px;
 	border: 1px solid #aaa;
-	font-family: "Tex Gyre Termes";
 	font-size: 15pt;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-textarea {
-  resize: none;
+.topo-checkbox-input {
+	text-align: justify;
+}
+
+.topo-mult-line-input {
+	resize: none;
 }
 
 #registration-msg {
