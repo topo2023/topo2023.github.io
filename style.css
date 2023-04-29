@@ -1,0 +1,361 @@
+ @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+ 
+html {
+	scroll-behavior: smooth;
+	font-family: "Old Standard TT", sans-serif;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+}
+
+#home {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	background-image: url('./bg.jpeg');
+	background-scale: 0.5;
+	/*min-height: 100%;*/
+}
+
+#topo-wrapper-title {
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 150px;
+}
+
+#topo-wrapper-title p {
+	font-size: 19pt;
+}
+
+@media only screen and (min-width: 900px) {
+	#home {
+		min-height: 100%;
+	}
+	#topo-wrapper-title {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	}
+}
+
+#program {
+	position: relative;
+	background-position: center;
+	background-color: #fff;
+}
+
+#participants {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-color: #fff;
+}
+
+#venue {
+	min-height: 100%;
+}
+
+#contact {
+	background-color: #ddd;
+	min-height: 600px;
+}
+
+
+.topo-wrapper-program {
+	text-align: center;
+	color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.topo-wrapper-participants {
+	text-align: center;
+	color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 900px) {
+	.topo-wrapper-participants {
+		width: 700px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.topo-wrapper-title {
+	/*transform: translate(0, -10%);*/
+	}
+}
+
+nav {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+nav a {
+	font-size: 17pt;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #000;
+	text-decoration: none;
+	padding: 10px;
+	min-width: 500px;
+	text-align: center;
+	color: #222;
+	background: #fff;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+h1 {
+	font-size: 40pt;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #111;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 30pt;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #111;
+	margin: 30px 0px 20px 0px;
+	padding: 0px;
+}
+
+h3 {
+	font-size: 20pt;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #111;
+	margin:0px;
+	padding: 0px;
+	padding-top: 20px;
+}
+
+/*************************/
+
+
+.topo-today {
+	background-color: #afe;
+}
+
+table {
+	width: 700px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	table-layout: fixed;
+	font-size: 14pt;
+	border-collapse: collapse;
+}
+
+td {
+	border-collapse: collapse;
+	border-bottom: 1px solid #aaa;
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+}
+
+th {
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	border-collapse: collapse;
+	font-weight: normal;
+	padding: 10px;
+}
+
+
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+
+
+.topo-div-day-hidden {
+        display: none !important;
+        border: 0px;
+}
+
+.topo-td-hidden {
+        max-height: 0px !important;
+        border: 0px !important;
+}
+
+
+.topo-cell-clickable {
+	-webkit-transition: color 0.5s; 
+	-moz-transition: color 0.5s; 
+	-ms-transition: color 0.5s; 
+	-o-transition: color 0.5s; 
+	transition: color 0.5s; 
+        color: blue;
+}
+
+.topo-cell-clicked {
+        background: #afa;
+        border-bottom: 0px;
+}
+
+.topo-cell-clickable:hover {
+        cursor: pointer;
+        color: black;
+}
+
+.topo-description {
+        display: block;
+        padding: 40px;
+        background: #afa;
+}
+
+.topo-schedule-td {
+	-webkit-transition: max-height 0.5s; 
+	-moz-transition: max-height 0.5s; 
+	-ms-transition: max-height 0.5s; 
+	-o-transition: max-height 0.5s; 
+	transition: max-height 0.5s; 
+        /* */
+        max-height: 600px;
+        padding: 0px;
+        border-bottom: 1px solid #000; 
+        border-left: 1px solid #000; 
+        border-right: 1px solid #000; 
+}
+
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+
+#topo-search-participants {
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	margin: 10px 00px 10px 0px;
+	padding: 8px 60px 8px 8px;
+	border: 1px solid #aaa;
+	font-family: "Tex Gyre Termes";
+	font-size: 15pt;
+	width: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+	#topo-search-participants {
+		width: 630px;
+	}
+}
+
+#topo-participants-container {
+	overflow:auto;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+
+#topo-participants-ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 300px;
+}
+
+#topo-participants-ul li span {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 15pt;
+	font-family: "Tex Gyre Termes";
+	text-align: left;
+	color: black;
+	display: block;
+}
+
+#topo-participants-ul li:nth-child(odd) {
+	background-color: #fafafa;
+	color: #fff;
+}
+
+#topo-participants-ul li a:hover:not(.header) {
+	/*background-color: #f2f2f2;*/
+}
+
+
+.expand{
+	position:relative;
+	text-decoration:none;
+	display:inline-block;
+}
+.expand:after {
+	display:block;
+	content: '';
+	border-bottom: solid 1px #000;  
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out;
+	transform-origin:100% 50%
+}
+.expand:hover:after { 
+	transform: scaleX(1);
+	transform-origin:0 50%;
+}
+
+/**************************************************/
+
+#registration {
+}
+
+.topo-wrapper-registration {
+	color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 900px) {
+	.topo-wrapper-registration {
+		width: 700px;
+	}
+}
+
+#registration label {
+	font-size: 15pt;
+	margin-top: 10px;
+	display:block;
+}
+
+#registration input,textarea {
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	margin: 5px 00px 15px 0px;
+	padding: 8px 8px 8px 8px;
+	border: 1px solid #aaa;
+	font-family: "Tex Gyre Termes";
+	font-size: 15pt;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+#registration-msg {
+	font-size:14pt;
+	text-align: justify;
+}
