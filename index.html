@@ -7,6 +7,31 @@
 	<link rel="stylesheet" href="./style.css">
 	<script type="text/javascript" src="schedule.js"></script>
 	<script type="text/javascript" src="participants.js"></script>
+	
+	<script type="text/javascript">
+		function topoRegistrationFormSelect(val) {
+			abstractInput = document.getElementById("entry.1115675442");
+			abstractLabel = document.getElementById("label-abstract");
+			titleInput = document.getElementById("entry.618002362");
+			titleLabel = document.getElementById("label-title");
+			if (val==="Talk") {
+				abstractInput.style.display = "block";
+				abstractLabel.style.display = "block";
+				titleInput.style.display = "block";
+				titleLabel.style.display = "block";
+			} else if (val==="Poster") {
+				abstractInput.style.display = "none";
+				abstractLabel.style.display = "none";
+				titleInput.style.display = "block";
+				titleLabel.style.display = "block";
+			} else if (val==="Attend") {
+				abstractInput.style.display = "none";
+				abstractLabel.style.display = "none";
+				titleInput.style.display = "none";
+				titleLabel.style.display = "none";
+			}
+		}
+	</script>
 	<title>{title} - {description}</title>
 </head>
 <body>
@@ -394,6 +419,9 @@
 		<p id="registration-msg">
 		To submit a talk, poster or simply register for the event, please fill out the form below, or contact us with your details to any of the organizers by email.</p>
 
+<!--https://docs.google.com/forms/d/e/1FAIpQLScrz6NwDMu0OyGTRlrNN38mY0CrpiawlJHmEHIC4k4ov-ouRA/viewform?usp=pp_url&entry.638212489=_name_&entry.2138354172=_aff_&entry.1846237726=_addr_&entry.1593972850=_arr_&entry.186280745=_dep_&entry.1746946742=Talk+submission&entry.618002362=_title_&entry.1115675442=_abstract_&entry.31331272=_comments_
+-->
+
 		<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScrz6NwDMu0OyGTRlrNN38mY0CrpiawlJHmEHIC4k4ov-ouRA/formResponse?">
 
 			<label for="regName">Name:</label>
@@ -411,8 +439,18 @@
 			<label for="regDeparture">Departure:</label>
 			<input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745">
 			
-			<label for="regAbstract">Abstract (max. 8 lines):</label>
-			<textarea placeholder="Leave blank if you are not submitting a talk..." class="topo-mult-line-input" cols="80" rows="8" maxlength="500" name="entry.1115675442" id="entry.1115675442"></textarea>
+			<select onchange="topoRegistrationFormSelect(this.value); console.log(this.value)" name="entry.1746946742" id="entry.1746946742">
+				<option value="" disabled selected hidden>Select your option</option>
+				<option value="Talk">Talk submission</option>
+				<option value="Poster">Poster submission</option>
+				<option value="Attend">Only registration</option>
+			</select> 
+
+			<label id="label-title" for="regTitle">Title:</label>
+			<input class="topo-one-line-input" type="text" name="entry.618002362" id="entry.618002362">
+			
+			<label id="label-abstract" for="regAbstract">Abstract (max. 8 lines):</label>
+			<textarea placeholder="" class="topo-mult-line-input" cols="80" rows="8" maxlength="500" name="entry.1115675442" id="entry.1115675442"></textarea>
 			
 			<label for="regComments">Comments:</label>
 			<textarea  placeholder="Date preferences, suggestions, restrictions..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>

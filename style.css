@@ -165,7 +165,7 @@ table {
 	margin-bottom: 20px;
 	text-align: center;
 	table-layout: fixed;
-	font-size: 14pt;
+	font-size: 12pt;
 	border-collapse: collapse;
 }
 
@@ -253,7 +253,7 @@ th {
 	margin: 10px 00px 10px 0px;
 	padding: 8px 60px 8px 8px;
 	border: 1px solid #aaa;
-	font-family: "Tex Gyre Termes";
+	font-family: "Old Standard TT", sans-serif;
 	font-size: 15pt;
 	width: 100%;
 }
@@ -281,7 +281,7 @@ th {
 	padding: 8px;
 	text-decoration: none;
 	font-size: 15pt;
-	font-family: "Tex Gyre Termes";
+	font-family: "Old Standard TT", sans-serif;
 	text-align: left;
 	color: black;
 	display: block;
@@ -339,7 +339,7 @@ th {
 	display:block;
 }
 
-.topo-one-line-input, .topo-mult-line-input {
+#registration select {
 	font-family: "Roboto Mono";
 	background-position: 10px 12px;
 	background-repeat: no-repeat;
@@ -351,12 +351,26 @@ th {
 	box-sizing: border-box;
 }
 
+.topo-one-line-input, .topo-mult-line-input {
+	font-family: "Roboto Mono";
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	margin: 5px 00px 15px 0px;
+	padding: 8px 8px 8px 8px;
+	border: 1px solid #aaa;
+	font-size: 15pt;
+	width: 100%;
+	box-sizing: border-box;
+	display:block;
+}
+
 .topo-checkbox-input {
 	text-align: justify;
 }
 
 .topo-mult-line-input {
 	resize: none;
+	display:block;
 }
 
 #registration-msg {
