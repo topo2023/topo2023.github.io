@@ -440,22 +440,22 @@
 			<input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745" min="2023-11-27" max="2023-12-15" required>
 			
 			<select onchange="topoRegistrationFormSelect(this.value); console.log(this.value)" name="entry.1746946742" id="entry.1746946742">
-				<option value="" disabled selected hidden>Select your option</option>
+				<option value="" disabled selected hidden>Select your option...</option>
 				<option value="Talk">Talk submission</option>
 				<option value="Poster">Poster submission</option>
 				<option value="Attend">Only registration</option>
 			</select> 
 
-			<label id="label-title" for="regTitle">Title:</label>
-			<input class="topo-one-line-input" type="text" name="entry.618002362" id="entry.618002362">
+			<label style="visibility: hidden" id="label-title" for="regTitle">Title:</label>
+			<input style="visibility: hidden" class="topo-one-line-input" type="text" name="entry.618002362" id="entry.618002362">
 			
-			<label id="label-abstract" for="regAbstract">Abstract (max. 8 lines):</label>
-			<textarea placeholder="" class="topo-mult-line-input" cols="80" rows="8" maxlength="500" name="entry.1115675442" id="entry.1115675442"></textarea>
+			<label style="visibility: hidden" id="label-abstract" for="regAbstract">Abstract (max. 8 lines):</label>
+			<textarea style="visibility: hidden" placeholder="" class="topo-mult-line-input" cols="80" rows="8" maxlength="500" name="entry.1115675442" id="entry.1115675442"></textarea>
 			
 			<label for="regComments">Comments:</label>
-			<textarea  placeholder="Date preferences, suggestions, restrictions..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>
+			<textarea placeholder="Date preferences, suggestions, restrictions..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>
 			
-			<input class="topo-checkbox-input"  type="checkbox"  onchange="document.getElementById('topo-submit-button').disabled = !this.checked;">
+			<input class="topo-checkbox-input" type="checkbox" onchange="document.getElementById('topo-submit-button').disabled = !this.checked;">
 			&nbsp; By clicking here you agree to the processing of the above data. This process is done through Google Forms. If you prefer, you can send an email directly to any of the organizers with your details. You will receive a confirmation within one or two working days with more information about the event and, if it applies, the fee payment information. If you do not receive our email, please contact us.
 			</input>
 			
