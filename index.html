@@ -425,19 +425,19 @@
 		<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScrz6NwDMu0OyGTRlrNN38mY0CrpiawlJHmEHIC4k4ov-ouRA/formResponse?">
 
 			<label for="regName">Name:</label>
-			<input class="topo-one-line-input" type="text" name="entry.638212489" id="entry.638212489">
+			<input class="topo-one-line-input" type="text" name="entry.638212489" id="entry.638212489" required>
 			
 			<label for="regAff">Affiliation:</label>
-			<input class="topo-one-line-input" type="text" name="entry.2138354172" id="entry.2138354172">
+			<input class="topo-one-line-input" type="text" name="entry.2138354172" id="entry.2138354172" required>
 			
 			<label for="regEmail">Email address:</label>
-			<input class="topo-one-line-input" type="email" name="entry.1846237726" id="entry.1846237726">
+			<input class="topo-one-line-input" type="email" name="entry.1846237726" id="entry.1846237726" required>
 			
 			<label for="regArrival">Arrival:</label>
-			<input class="topo-one-line-input" type="date" name="entry.1593972850" id="entry.1593972850">
+			<input class="topo-one-line-input" type="date" name="entry.1593972850" id="entry.1593972850" min="2023-11-20" max="2023-12-8" required>
 			
 			<label for="regDeparture">Departure:</label>
-			<input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745">
+			<input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745" min="2023-11-27" max="2023-12-15" required>
 			
 			<select onchange="topoRegistrationFormSelect(this.value); console.log(this.value)" name="entry.1746946742" id="entry.1746946742">
 				<option value="" disabled selected hidden>Select your option</option>
