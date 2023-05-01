@@ -1,5 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+
+/********************************************************************/
+
 html {
 	scroll-behavior: smooth;
 	font-family: "Old Standard TT", sans-serif;
@@ -10,8 +12,7 @@ html, body {
 	height: 100%;
 }
 
-body {
-}
+/********************************************************************/
 
 #home {
 	position: relative;
@@ -42,11 +43,22 @@ body {
 	}
 }
 
+/********************************************************************/
+
 #program {
 	position: relative;
 	background-position: center;
 	background-color: #fff;
 }
+
+.topo-wrapper-program {
+	text-align: center;
+	color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/********************************************************************/
 
 #participants {
 	display: flex;
@@ -56,23 +68,6 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-color: #fff;
-}
-
-#venue {
-	min-height: 100%;
-}
-
-#contact {
-	background-color: #ddd;
-	min-height: 600px;
-}
-
-
-.topo-wrapper-program {
-	text-align: center;
-	color: #000;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .topo-wrapper-participants {
@@ -93,6 +88,21 @@ body {
 	/*transform: translate(0, -10%);*/
 	}
 }
+
+/********************************************************************/
+
+#venue {
+	min-height: 100%;
+}
+
+/********************************************************************/
+
+#contact {
+	background-color: #ddd;
+	min-height: 600px;
+}
+
+/********************************************************************/
 
 nav {
 	margin-top: 30px;
@@ -115,6 +125,8 @@ nav a {
 nav a:hover {
 	color: #000;
 }
+
+/********************************************************************/
 
 h1 {
 	font-size: 40pt;
@@ -146,12 +158,13 @@ h3 {
 	padding-top: 20px;
 }
 
-/*************************/
-
+/********************************************************************/
 
 .topo-today {
 	background-color: #afe;
 }
+
+/********************************************************************/
 
 table {
 	width: 700px;
@@ -182,11 +195,8 @@ th {
 }
 
 
-/************************************************/
-/************************************************/
-/************************************************/
-/************************************************/
 
+/********************************************************************/
 
 .topo-div-day-hidden {
         display: none !important;
@@ -238,10 +248,7 @@ th {
         border-right: 1px solid #000; 
 }
 
-/************************************************/
-/************************************************/
-/************************************************/
-/************************************************/
+/********************************************************************/
 
 #topo-search-participants {
 	background-position: 10px 12px;
@@ -311,7 +318,7 @@ th {
 	transform-origin:0 50%;
 }
 
-/**************************************************/
+/********************************************************************/
 
 #registration {
 }
@@ -336,7 +343,7 @@ th {
 }
 
 #registration select {
-	font-family: "Roboto Mono";
+	font-family: "Old Standard TT", sans-serif;
 	background-position: 10px 12px;
 	background-repeat: no-repeat;
 	margin: 5px 00px 15px 0px;
@@ -348,7 +355,7 @@ th {
 }
 
 .topo-one-line-input, .topo-mult-line-input {
-	font-family: "Roboto Mono";
+	font-family: "Old Standard TT", sans-serif;
 	background-position: 10px 12px;
 	background-repeat: no-repeat;
 	margin: 5px 00px 15px 0px;
