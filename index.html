@@ -12,7 +12,10 @@
 		function topoCheckForm() {
 			var acceptedConduct = document.getElementById("topo-checkbox-conduct").value;
 			var acceptedData = document.getElementById("topo-checkbox-data").value;
+			console.log(acceptedConduct);
+			console.log(acceptedData);
 			document.getElementById("topo-submit-button").disabled = !(acceptedConduct && acceptedData);
+			console.log(!(acceptedConduct && acceptedData));
 		}
 		function topoRegistrationFormSelect(val) {
 			abstractInput = document.getElementById("entry.1115675442");
