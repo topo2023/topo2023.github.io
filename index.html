@@ -9,6 +9,11 @@
 	<script type="text/javascript" src="participants.js"></script>
 	
 	<script type="text/javascript">
+		function topoCheckForm() {
+			var acceptedConduct = document.getElementById("topo-checkbox-conduct").value;
+			var acceptedData = document.getElementById("topo-checkbox-data").value;
+			document.getElementById("topo-submit-button").disabled = !(acceptedConduct && acceptedData);
+		}
 		function topoRegistrationFormSelect(val) {
 			abstractInput = document.getElementById("entry.1115675442");
 			abstractLabel = document.getElementById("label-abstract");
@@ -445,11 +450,11 @@
 			<label for="regDeparture">Departure:</label>
 			<input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745" min="2023-11-27" max="2023-12-15" required>
 			
-			<select onchange="topoRegistrationFormSelect(this.value); console.log(this.value)" name="entry.1746946742" id="entry.1746946742">
-				<option value="" disabled selected hidden>Select your option...</option>
+			<label for="regOption">Select your option:</label>
+			<select onchange="topoRegistrationFormSelect(this.value);" name="entry.1746946742" id="entry.1746946742">
+				<option value="Attend">Only registration</option>
 				<option value="Talk">Talk submission</option>
 				<option value="Poster">Poster submission</option>
-				<option value="Attend">Only registration</option>
 			</select> 
 
 			<label style="display: none;" id="label-title" for="regTitle">Title:</label>
@@ -461,8 +466,12 @@
 			<label for="regComments">Comments:</label>
 			<textarea placeholder="Date preferences, suggestions, restrictions..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>
 			
-			<input class="topo-checkbox-input" type="checkbox" onchange="document.getElementById('topo-submit-button').disabled = !this.checked;">
-			&nbsp; By clicking here you agree to the processing of the above data. This process is done through Google Forms. If you prefer, you can send an email directly to any of the organizers with your details. You will receive a confirmation within one or two working days with more information about the event and, if it applies, the fee payment information. If you do not receive our email, please contact us.
+			<input id="topo-checkbox-data" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
+			By clicking here you agree to the processing of the above data, done through Google Forms. 
+			</input>
+		
+			<input id="topo-checkbox-conduct" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
+			By clicking here you agree to the <a href="./conduct.html" target="_blank">code of conduct</a>.
 			</input>
 			
 			<input class="topo-one-line-input" type="submit" disabled="true" id="topo-submit-button" value="Submit">
