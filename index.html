@@ -10,8 +10,8 @@
 	
 	<script type="text/javascript">
 		function topoCheckForm() {
-			var acceptedConduct = document.getElementById("topo-checkbox-conduct").value;
-			var acceptedData = document.getElementById("topo-checkbox-data").value;
+			var acceptedConduct = document.getElementById("topo-checkbox-conduct").checked;
+			var acceptedData = document.getElementById("topo-checkbox-data").checked;
 			console.log(acceptedConduct);
 			console.log(acceptedData);
 			document.getElementById("topo-submit-button").disabled = !(acceptedConduct && acceptedData);
