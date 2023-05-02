@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="schedule.js"></script>
+	<script type="text/javascript" src="participants.js"></script>
+	
+	<script type="text/javascript">
+		function topoCheckForm() {
+			var acceptedConduct = document.getElementById("topo-checkbox-conduct").value;
+			var acceptedData = document.getElementById("topo-checkbox-data").value;
+			document.getElementById("topo-submit-button").disabled = !(acceptedConduct && acceptedData);
+		}
+		function topoRegistrationFormSelect(val) {
+			abstractInput = document.getElementById("entry.1115675442");
+			abstractLabel = document.getElementById("label-abstract");
+			titleInput = document.getElementById("entry.618002362");
+			titleLabel = document.getElementById("label-title");
+			if (val==="Talk") {
+				abstractInput.style.display = "block";
+				abstractLabel.style.display = "block";
+				titleInput.style.display = "block";
+				titleLabel.style.display = "block";
+			} else if (val==="Poster") {
+				abstractInput.style.display = "none";
+				abstractLabel.style.display = "none";
+				titleInput.style.display = "block";
+				titleLabel.style.display = "block";
+			} else if (val==="Attend") {
+				abstractInput.style.display = "none";
+				abstractLabel.style.display = "none";
+				titleInput.style.display = "none";
+				titleLabel.style.display = "none";
+			}
+		}
+	</script>
+	<title>{title} - {description}</title>
+</head>
+<body>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+
+<div id="home">
+	<div id="topo-wrapper-title">
+		<p>{starting date} &mdash; {ending date}, 2023</p>
+		<h1>{title}</h1>
+		<p>{description}</p>
+		<p>at {University}, {Country}</p>
+		<nav>
+			<a href="#program">Program</a> 
+			<a href="#venue">Venue</a> 
+			<a href="#registration">Registration</a>
+			<a href="#participants">Participants</a>
+		</nav>
+		<p style="text-align:center">
+		Confirmed speakers: <br/>
+		N. C. <br/>
+		A. M. <br/>
+		A. T. 
+		</p>
+	</div>
+</div>
+
+<div id="registration">
+
+	<div class="topo-wrapper-registration">
+
+		<h2>Code of conduct</h2>
+
+    Beyond IID is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion. We do not tolerate harassment of workshop participants in any form. Sexual language and imagery is not appropriate for any workshop venue, including talks. Workshop participants violating these rules may be sanctioned or expelled from the workshop at the discretion of the workshop organizers.
+
+    Harassment includes, but is not limited to, the following:
+
+    Offensive comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion.
+
+    Sexual images in public spaces
+
+    Deliberate intimidation, stalking, or following
+
+    Harassing photography or recording
+
+    Sustained disruption of talks or other events
+
+    Inappropriate physical contact
+
+    Unwelcome sexual attention
+
+    Advocating for, or encouraging, any of the above behavior
+
+    Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, event organizers retain the right to take any actions to keep the workshop a welcoming environment for all participants. This includes warning the offender or expulsion from the workshop.
+
+    Workshop organizers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants.
+
+    We expect participants to follow these rules at all event venues and event-related social activities.
+
+    If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. Harassment and other code of conduct violations reduce the value of our event for everyone. We want you to be happy at our event. People like you make our event a better place.
+
+    You can make a personal report by contacting any of the organizers.
+
+    When taking a personal report, we will ensure you are safe and cannot be overheard. That may involve other event staff to ensure your report is managed properly. Once safe, we will ask you to tell us about what happened. This can be upsetting, but we will handle it as respectfully as possible, and you can bring someone to support you. You will not be asked to confront anyone and we will not tell anyone who you are.
+
+    Our team will be happy to help you to feel safe for the duration of the event. We value your attendance.
+    
+	</div>
+</div>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+
+</body>
+</html>
