@@ -22,7 +22,7 @@ html, body {
 	align-items: center;
 	justify-content: center;
 	background-color: #fff;
-	background-image: url('./bg.jpeg');
+	/*background-image: url('./bg.jpeg');*/
 	background-scale: 0.5;
 	/*min-height: 100%;*/
 }
