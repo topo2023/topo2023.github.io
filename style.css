@@ -37,7 +37,7 @@ html, body {
 	font-size: 19pt;
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 1100px) {
 	#home {
 		min-height: 100%;
 	}
@@ -46,6 +46,7 @@ html, body {
 #confspeakers {
 	line-height: 1.5em;
 	text-align: center;
+	margin-top: 50px;
 }
 
 /********************************************************************/
