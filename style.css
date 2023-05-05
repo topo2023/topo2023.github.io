@@ -43,10 +43,9 @@ html, body {
 	}
 }
 
-#confspeakers {
+#confspeakers p {
 	line-height: 1.5em;
 	text-align: center;
-	margin-top: 50px;
 }
 
 /********************************************************************/
@@ -164,8 +163,9 @@ h1 {
 }
 
 h2 {
-	font-size: 30pt;
+	font-size: 25pt;
 	text-decoration: underline;
+	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #111;
