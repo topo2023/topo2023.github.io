@@ -3,7 +3,7 @@
 /********************************************************************/
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -245,7 +245,7 @@ table {
 	margin-bottom: 20px;
 	text-align: center;
 	table-layout: fixed;
-	font-size: 12pt;
+	font-size: 14pt;
 	border-collapse: collapse;
 }
 
@@ -253,14 +253,13 @@ td {
 	border-collapse: collapse;
 	border-bottom: 1px solid #aaa;
 	margin: 0;
-	padding: 0;
 	padding: 10px;
 }
 
 th {
+	border-collapse: collapse;
 	border-bottom: 1px solid #aaa;
 	border-top: 1px solid #aaa;
-	border-collapse: collapse;
 	font-weight: normal;
 	padding: 10px;
 }
