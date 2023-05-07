@@ -53,7 +53,6 @@ nav a:hover {
 
 /********************************************************************/
 
-/*
 #home {
 	position: relative;
 	background-position: center;
@@ -73,16 +72,11 @@ nav a:hover {
 	padding-top: 150px;
 }
 
-#topo-wrapper-title p {
-	font-size: 19pt;
-}
-
 @media only screen and (max-height: 1100px) {
 	#home {
 		min-height: 100%;
 	}
 }
-*/
 
 /********************************************************************/
 
