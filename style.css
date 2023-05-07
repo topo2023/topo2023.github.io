@@ -135,6 +135,15 @@ html, body {
 #venue {
 	min-height: 100%;
 	background-color: #aaa;
+	display: flex;
+}
+
+.topo-venue-description {
+	flex: 50%;
+}
+
+.topo-venue-picture {
+	flex: 50%;
 }
 
 /********************************************************************/
