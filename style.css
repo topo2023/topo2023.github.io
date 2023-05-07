@@ -50,9 +50,20 @@ html, body {
 
 .topo-wrapper-confspeakers {
 	display: flex;
-	text-align: center;
+	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	max-width: 700px;
+}
+
+.speaker {
+	font-size: 18pt;
+	color: #000;
+	font-weight: bold;
+}
+
+.aff {
+	color: #555;
 }
 
 /********************************************************************/
