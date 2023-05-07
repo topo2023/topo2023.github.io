@@ -48,6 +48,13 @@ html, body {
 	text-align: center;
 }
 
+.topo-wrapper-confspeakers {
+	display: flex;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 /********************************************************************/
 
 #conduct {
@@ -77,7 +84,6 @@ html, body {
 
 .topo-wrapper-program {
 	text-align: center;
-	color: #000;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
