@@ -4,11 +4,12 @@
 
 html {
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 body {
 	margin: 0;
-	height: auto;
+	height: 100%;
 	font-family: "Old Standard TT", sans-serif;
 }
 
