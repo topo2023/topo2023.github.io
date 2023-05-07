@@ -2,17 +2,17 @@
 
 /********************************************************************/
 
-html {
-	scroll-behavior: smooth;
+body {
+	margin: 0;
+	height: auto;
 	font-family: "Old Standard TT", sans-serif;
 }
 
-html, body {
-	margin: 0;
-	height: 100%;
-}
-
 /********************************************************************/
+
+header {
+	margin: 0 auto;
+}
 
 #home {
 	position: relative;
@@ -156,6 +156,7 @@ html, body {
 /********************************************************************/
 
 nav {
+	margin: 0 auto;
 	position: sticky;
 	top: 0;
 }
