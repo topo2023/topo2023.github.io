@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
 
 /********************************************************************/
+:root {
+    --myyellow: #D7B418;
+    --myblue: #154084;
+    --mygray: #EDEDED;
+    --myred: #9D2719;
+    --myblack: #222222;
+}
 
 html {
 	scroll-behavior: smooth;
