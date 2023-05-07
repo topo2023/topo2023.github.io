@@ -16,9 +16,9 @@ html {
 body {
 	margin: 0;
 	font-family: "Old Standard TT", sans-serif;
-	background-image: url('/bg.jpeg');
+	/*background-image: url('/bg.jpeg');
 	background-position: 100px -200px;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 /********************************************************************/
@@ -26,7 +26,7 @@ body {
 header {
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 }
 
 header p {
@@ -38,11 +38,11 @@ header p {
 nav {
 	margin: 0 auto;
 	margin-top: 50px;
-	position: sticky;
+	/*position: sticky;
 	top: 0px;
-	padding: 10px;
+	padding: 10px;*/
 	text-align: center;
-	background: white;
+	/*background: white;*/
 	z-index: 100;
 }
 
@@ -64,7 +64,7 @@ nav a:hover {
 
 /********************************************************************/
 
-/*
+
 #home {
 	position: relative;
 	background-position: center;
@@ -75,7 +75,6 @@ nav a:hover {
 	background-color: #fff;
 	background-image: url('./bg.jpeg');
 	background-scale: 0.5;
-	min-height: 100%;
 }
 
 #topo-wrapper-title {
@@ -89,7 +88,7 @@ nav a:hover {
 		min-height: 100%;
 	}
 }
-*/
+
 
 /********************************************************************/
 
