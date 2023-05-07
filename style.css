@@ -156,8 +156,8 @@ html, body {
 /********************************************************************/
 
 nav {
-	margin-top: 30px;
-	display: inline-block;
+	position: sticky;
+	top: 0;
 }
 
 nav a {
