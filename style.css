@@ -11,15 +11,14 @@
 
 html {
 	scroll-behavior: smooth;
-	/*height: 100%;*/
 }
 
 body {
 	margin: 0;
-	/*height: 100%;*/
 	font-family: "Old Standard TT", sans-serif;
 	background-image: url('/bg.jpeg');
 	background-position: 100px -250px;
+	background-repeat: no-repeat;
 }
 
 /********************************************************************/
