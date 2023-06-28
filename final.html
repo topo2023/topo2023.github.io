@@ -45,13 +45,7 @@
 				        </h3>
 				        
 				        <p class="abstract">
-				        Topological phases of matter have attracted tremendous attention over the last 30 years.
-				        Topological order offers a quite unique interplay between condensed matter physics,
-				        quantum field theory, algebraic topology, and quantum information theory. Although
-				        many central questions raised regarding topological phases are mathematical in
-				        character, the field still lacks firm mathematical foundations. The aim of the
-				        workshop is twofold: (i) to offer a series of lectures on selected topics of
-				        mathematical character, (ii) to expose state of art results in topological phases.
+				        Topological phases of matter have garnered significant interest over the past 30 years, offering a unique blend of condensed matter physics, quantum field theory, algebraic topology and quantum information theory. While many of the key questions surrounding topological phases have a mathematical nature, the field still requires solid mathematical foundations. This workshop aims to address these challenges by offering a series of lectures on selected mathematical topics and presenting state-of-the-art results in topological phases.
 				        </p>
 				        
 				        <p>
@@ -102,6 +96,8 @@
 			<a href="https://www.trr352.de/index.html"><img height="50" style="margin-right: 50px" src="./trr.jpg" /></a>
 			<a href="https://uni-tuebingen.de/"><img height="50" src="https://upload.wikimedia.org/wikipedia/de/thumb/9/9c/UniversitaetTuebingen_WortBildMarke.png/799px-UniversitaetTuebingen_WortBildMarke.png" /></a>
 		</div>
+    
+<!--    <div style="position: absolute; bottom: 30px; left: 50%; font-size: 30pt"><a href="#info" style="text-decoration: none; color: black">&or;</a></div>-->
 
     </article>
 
@@ -110,6 +106,10 @@
         <div class="wrapper">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
+        
+<!--    <a href="#home" style="position: absolute; top: 30px; ; left: 50%; font-size: 30pt; font-family: 'Old Standard TT'; text-decoration: none; color: #888">&and;</a>-->
+    
+<!--    <a href="#venue" style="position: absolute; bottom: 30px; ; left: 50%; font-size: 30pt; font-family: 'Old Standard TT'; text-decoration: none; color: black">&or;</a>-->
 
     </article>
 
@@ -124,7 +124,109 @@
     <article id="registration">
 
         <div class="wrapper">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            
+            <h2>Registration</h2>
+
+            <p id="registration-msg">
+            To submit a talk, poster or simply register for the event, please fill out the form below.
+            </p>
+
+            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScrz6NwDMu0OyGTRlrNN38mY0CrpiawlJHmEHIC4k4ov-ouRA/formResponse?">
+
+                <div class="regDivParent">
+                    
+                    <div class="regDiv">
+                        <label for="regName">First name:</label>
+                        <input class="topo-one-line-input" type="text" name="entry.638212489" id="entry.638212489" required>
+                    </div>
+                    
+                    <div class="regDiv">
+                        <label for="regName">Surname:</label>
+                        <input class="topo-one-line-input" type="text" name="entry.638212489" id="entry.638212489" required>
+                    </div>
+                    
+                </div>
+
+                <div class="regDivParent">
+                    
+                    <div class="regDiv">
+                        <label for="regEmail">Email address:</label>
+                        <input class="topo-one-line-input" type="email" name="entry.1846237726" id="entry.1846237726" required>
+                    </div>
+                    
+                    <div class="regDiv">
+                        <label for="regAff">Affiliation:</label>
+                        <input class="topo-one-line-input" type="text" name="entry.2138354172" id="entry.2138354172" required>
+                    </div>
+                    
+                </div>
+
+                <div class="regDivParent">
+                    
+                    <div class="regDiv">
+                        <label for="regArrival">Arrival:</label>
+                        <input class="topo-one-line-input" type="date" name="entry.1593972850" id="entry.1593972850" min="2023-11-20" max="2023-12-08" required>
+                    </div>
+                    
+                    <div class="regDiv">
+                        <label for="regDeparture">Departure:</label>
+                        <input class="topo-one-line-input" type="date" name="entry.186280745" id="entry.186280745" min="2023-11-27" max="2023-12-15" required>
+                    </div>
+                    
+                </div>
+
+<!--                <div class="regDiv">-->
+                    
+                    <label for="regOption">Select your option:</label>
+                    <select onchange="topoRegistrationFormSelect(this.value);" name="entry.1746946742" id="entry.1746946742">
+                        <option value="Attend">Only registration</option>
+                        <option value="Talk">Talk submission</option>
+                        <option value="Poster">Poster submission</option>
+                    </select>
+                    
+<!--                </div>-->
+
+                <label style="display: none;" id="label-title" for="regTitle">Title:</label>
+                <input style="display: none;" class="topo-one-line-input" type="text" name="entry.618002362" id="entry.618002362">
+
+                <label style="display: none;" id="label-abstract" for="regAbstract">Abstract (max. 8 lines):</label>
+                <textarea style="display: none;" placeholder="" class="topo-mult-line-input" cols="80" rows="8" maxlength="500" name="entry.1115675442" id="entry.1115675442"></textarea>
+
+                <div class="regDivParent">
+                    
+                    <div class="regDiv">
+                        <label for="regOption">Will you attend the conference dinner?</label>
+                        <select onchange="topoRegistrationFormSelect(this.value);" name="" id="">
+                            <option value="DontKnow">I do not know</option>
+                            <option value="WillAttend">I will attend</option>
+                            <option value="WillNotAttend">I will not attend</option>
+                        </select> 
+                    </div>
+                    
+                    <div class="regDiv">
+                        <label for="regDiet">Dietary restrictions (optional):</label>
+                        <input class="topo-one-line-input" placeholder="Vegetarian, vegan, gluten..." type="text" name="" id="">
+                    </div>
+                    
+                </div>
+
+                <label for="regComments">Comments (optional):</label>
+                <textarea placeholder="Date preferences, accessibility needs..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>
+
+                <input id="topo-checkbox-data" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
+                By clicking here you agree to the processing of the above data, done through Google Forms. 
+                </input>
+
+                <br/>
+
+                <input id="topo-checkbox-conduct" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
+                By clicking here you agree the <a href="./conduct.html" target="_blank">code of conduct</a>.
+                </input>
+
+                <input class="topo-one-line-input" type="submit" disabled="true" id="topo-submit-button" value="Submit">
+
+            </form>
+            
         </div>
 
     </article>
