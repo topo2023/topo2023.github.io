@@ -295,6 +295,7 @@ nav a {
 	font-size: 11pt;
 	width: 100%;
 	box-sizing: border-box;
+    -webkit-appearance: none;
 }
 
 .regDivParent {
@@ -317,14 +318,11 @@ nav a {
 }
 
 .topo-one-line-input, .topo-mult-line-input {
-/*	background-position: 10px 12px;*/
-/*	background-repeat: no-repeat;*/
 	margin: 5px 0px 5px 0px;
 	padding: 5px;
 	border: 1px solid #aaa;
 	font-size: 11pt;
 	width: 100%;
-/*	box-sizing: border-box;*/
 	display:block;
 	font-family: "Libre Franklin";
 }
