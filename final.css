@@ -309,6 +309,7 @@ nav a {
 	    margin: 0 auto;
 	}
 	.regDiv {
+	    flex: 50%;
 	    margin: 0 auto;
 	}
 }
@@ -320,7 +321,7 @@ nav a {
         gap: 0px;
     }
 	.regDiv {
-	    flex: 50%;
+	    flex: 100%;
 	    margin: 0 auto;
 	}
 }
