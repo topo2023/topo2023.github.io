@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 
 @font-face {
-  font-family: "HausFromFontBlastDesign";
-  src: url('/haus.ttf');
+	font-family: "HausFromFontBlastDesign";
+	src: url('/haus.ttf');
 }
 
 /********************************************************************/
@@ -265,7 +265,7 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 18pt;
+	font-size: 17pt;
 	font-weight: bold;
 	margin-bottom:0px
 }
