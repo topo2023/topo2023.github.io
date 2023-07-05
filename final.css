@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
 
 @font-face {
-  font-family: HausFromFontBlastDesign;
+  font-family: "HausFromFontBlastDesign";
   src: url('/haus.ttf');
 }
 
@@ -40,7 +40,7 @@ h1 {
 	color: #111;
 	margin: 0px;
 	padding: 0px;
-	font-family "HausFromFontBlastDesign": 
+	font-family: "HausFromFontBlastDesign": 
 }
 
 h2 {
