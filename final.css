@@ -129,11 +129,13 @@ h3 {
     scroll-snap-align: start;
 }
 
+/*
 #home > .wrapper {
     background-repeat: no-repeat;
     background-position: top -100px left 50%;
     background-image: url(bg.jpeg)
 }
+*/
 
 /********************************************************************/
 
