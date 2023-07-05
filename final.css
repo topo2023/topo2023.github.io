@@ -40,6 +40,8 @@ article {
 #home-title-left {
 	flex: 150px;
     	text-align: right;
+	padding-right: 25px;
+	padding-top: 25px;
 }
 
 #home-title-right{
@@ -47,9 +49,9 @@ article {
 }
 
 h1 {
-	font-size: 50pt;
-    	line-height: 45pt;
-    	letter-spacing: 10pt;
+	font-size: 78pt;
+    	line-height: 46pt;
+    	letter-spacing: -4pt;
 	text-transform: uppercase;
 	color: #111;
 	margin: 0px;
