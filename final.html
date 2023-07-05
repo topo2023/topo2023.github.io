@@ -34,7 +34,7 @@
 				        Nov. 27 &mdash; Dec. 8, 2023
 				        </h3>
 				        
-				        <h1>TOPO23</h1>
+				        <h1>TO2<br/>PO3</h1>
 				        
 				        <h3>
 				        A Workshop on the Mathematics of Topological Order
@@ -229,7 +229,15 @@
                     
                     <div class="regDiv">
                         <label for="regDiet">Dietary restrictions (optional):</label>
-                        <input class="topo-one-line-input" placeholder="Vegetarian, vegan, gluten..." type="text" name="" id="">
+                        <!--<input class="topo-one-line-input" placeholder="Vegetarian, vegan, gluten..." type="text" name="" id="">-->
+                        <select onchange="topoRegistrationFormSelect(this.value);" name="" id="">
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                            <option value="GlutenFree">Gluten intolerance</option>
+                            <option value="GlutenFree">Lactose intolerance</option>
+                            <option value="Kosher">Kosher</option>
+                            <option value="OtherAllergies">Allergies (specify below)</option>
+                        </select> 
                     </div>
                     
                 </div>
@@ -238,13 +246,13 @@
                 <textarea placeholder="Date preferences, accessibility needs..." class="topo-mult-line-input" cols="80" rows="3" maxlength="500" name="entry.31331272" id="entry.31331272"></textarea>
 
                 <input id="topo-checkbox-data" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
-                By clicking here you agree to the processing of the above data, done through Google Forms. 
+                I agree the processing of the above data through Google Forms. 
                 </input>
 
                 <br/>
 
                 <input id="topo-checkbox-conduct" class="topo-checkbox-input" type="checkbox" onchange="topoCheckForm()">
-                By clicking here you agree the <a href="./conduct.html" target="_blank">code of conduct</a>.
+                I agree the <a href="./conduct.html" target="_blank">code of conduct</a>.
                 </input>
 
                 <input class="topo-one-line-input" type="submit" disabled="true" id="topo-submit-button" value="Submit">
