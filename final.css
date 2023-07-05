@@ -33,6 +33,19 @@ article {
 
 /********************************************************************/
 
+#home-title-container {
+	display: flex;
+}
+
+#home-title-left {
+	flex: 200px;
+    text-align: right;
+}
+
+#home-title-right{
+    text-align: left;
+}
+
 h1 {
 	font-size: 50pt;
 	letter-spacing: 5px;
