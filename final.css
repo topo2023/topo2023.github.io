@@ -26,9 +26,9 @@ main {
 }
 
 article {
-    margin: 0 auto;
-    display: flex;
-    position: relative;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
 }
 
 /********************************************************************/
@@ -38,17 +38,18 @@ article {
 }
 
 #home-title-left {
-	flex: 200px;
-    text-align: right;
+	flex: 150px;
+    	text-align: right;
 }
 
 #home-title-right{
-    text-align: left;
+    	text-align: left;
 }
 
 h1 {
 	font-size: 50pt;
-	letter-spacing: 5px;
+    	line-height: 45pt;
+    	letter-spacing: 10pt;
 	text-transform: uppercase;
 	color: #111;
 	margin: 0px;
