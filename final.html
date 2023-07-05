@@ -29,20 +29,28 @@
 		        <div id="home-top">
 		        
 			        <div id="home-description">
-			        
-				        <h3>
-				        Nov. 27 &mdash; Dec. 8, 2023
-				        </h3>
-				        
-				        <h1>TO2<br/>PO3</h1>
-				        
-				        <h3>
-				        A Workshop on the Mathematics of Topological Order
-				        </h3>
-				        
-				        <h3>
-				        At <a style="color: #555; text-decoration: none" href="">University of Tübingen</a>, Germany
-				        </h3>
+
+					<div id="home-title-container">
+	
+						<div id="home-title-left">
+					        	<h1>TO<br/>PO</h1>
+						</div>
+	
+						<div id="home-title-right">
+						        <h3>
+						        Nov. 27 &mdash; Dec. 8, 2023
+						        </h3>
+							
+						        <h3>
+						        A Workshop on the Mathematics of Topological Order
+						        </h3>
+						        
+						        <h3>
+						        At <a style="color: #555; text-decoration: none" href="">University of Tübingen</a>, Germany
+						        </h3>
+						</div>
+
+					</div>
 				        
 				        <p class="abstract">
 				        Topological phases of matter have garnered significant interest over the past 30 years, offering a unique blend of condensed matter physics, quantum field theory, algebraic topology and quantum information theory.
@@ -272,16 +280,17 @@
                     <div class="regDiv">
                         <label for="regOption">Will you attend the conference dinner?</label>
                         <select onchange="topoRegistrationFormSelect(this.value);" name="" id="">
-                            <option value="DontKnow">I do not know</option>
+                            <option value="DontKnow">I do not know yet</option>
                             <option value="WillAttend">I will attend</option>
                             <option value="WillNotAttend">I will not attend</option>
                         </select> 
                     </div>
                     
                     <div class="regDiv">
-                        <label for="regDiet">Dietary restrictions (optional):</label>
+                        <label for="regDiet">Dietary restrictions:</label>
                         <!--<input class="topo-one-line-input" placeholder="Vegetarian, vegan, gluten..." type="text" name="" id="">-->
                         <select onchange="topoRegistrationFormSelect(this.value);" name="" id="">
+                            <option value="NoRestriction">None</option>
                             <option value="Vegetarian">Vegetarian</option>
                             <option value="Vegan">Vegan</option>
                             <option value="GlutenFree">Gluten intolerance</option>
