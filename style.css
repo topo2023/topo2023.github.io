@@ -236,7 +236,6 @@ nav {
 nav a {
 	font-size: 17pt;
 	margin-left: 10px;
-	border: 1px solid #555;
 	text-decoration: none;
 	padding: 10px;
 	text-align: center;
@@ -246,7 +245,7 @@ nav a {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
-	box-shadow: 2px 2px #bbb;
+	box-shadow: 1px 1px #4e4e4e;
 }
 
 /********************************************************************/
