@@ -239,20 +239,20 @@ nav {
 }
 
 nav a {
-    font-size: 17pt;
-    margin-left: 10px;
-    border: 1px solid #555;
-    text-decoration: none;
-    padding: 10px;
-    text-align: center;
-    color: #000;
-    background: #fff;
-    border-radius: 3px;
-    -webkit-transition: background-color 500ms linear;
-    -moz-transition: background-color 500ms linear;
-    -o-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
+	font-size: 17pt;
+	margin-left: 10px;
+	border: 1px solid #555;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+	box-shadow: 3px 3px #888;
 }
 
 /********************************************************************/
