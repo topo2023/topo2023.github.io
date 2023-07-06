@@ -172,7 +172,7 @@ h3 {
 
     #home-invited {
         text-align: left;
-        flex: 40%;
+        flex: 42%;
         padding-left: 50px;
     }
 
@@ -181,7 +181,7 @@ h3 {
     }
 
     #home-description {
-        flex: 60%;
+        flex: 58%;
     }
 
     #home-description > h3 {
