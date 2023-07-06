@@ -280,14 +280,29 @@ nav a {
 
 #info-info {
 	flex: 30%;
+	text-align: justify;
+}
+
+#info-info > h3 {
+	text-align: center;
 }
 
 #info-keydates {
 	flex: 30%;
+	text-align: center;
+}
+
+#info-keydates > h3 {
+	text-align: center;
 }
 
 #info-commitee {
 	flex: 30%;
+	text-align: center;
+}
+
+#info-commitee > h3 {
+	text-align: center;
 }
 
 /********************************************************************/
