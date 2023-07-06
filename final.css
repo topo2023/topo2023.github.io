@@ -176,6 +176,10 @@ h3 {
         padding-left: 50px;
     }
 
+    #home-invited > h3 {
+        text-align: left !important;
+    }
+
     #home-description {
         flex: 60%;
     }
