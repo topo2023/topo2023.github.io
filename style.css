@@ -283,6 +283,10 @@ nav a {
 	text-align: center;
 }
 
+#info-info > p {
+	font-size: 16pt;
+}
+
 #info-keydates {
 	flex: 30%;
 	text-align: center;
