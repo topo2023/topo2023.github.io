@@ -310,14 +310,14 @@ nav a {
 
 #registration {
 	background-color: white;
-    scroll-snap-align: end;
+	scroll-snap-align: end;
 }
 
 #registration label {
 	font-size: 12pt;
 	margin-top: 5px;
 	display: block;
-	font-family: "Old Standard TT";
+	font-family: "Libre Franklin";
 }
 
 #registration select, option {
@@ -327,11 +327,11 @@ nav a {
 	margin: 5px 0px 5px 0px;
 	padding: 5px;
 	border: 1px solid #aaa;
-    border-radius: 0px;
+	border-radius: 0px;
 	font-size: 11pt;
 	width: 100%;
-    -webkit-appearance: none;
-    appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 @media only screen and ((min-width: 1251px) and (min-height: 851px)) {
@@ -382,6 +382,7 @@ nav a {
 #registration-msg {
 	font-size: 14pt;
 	text-align: justify;
+    font-family: "Libre Franklin";
     padding: 0px;
     margin: 10px 0px;
 }
@@ -417,10 +418,6 @@ nav a {
 
     #venue-right {
         flex: 60%;
-    }
-
-    #venue-right h2 {
-        text-align: right;   
     }
 }
 
