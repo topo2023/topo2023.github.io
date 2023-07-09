@@ -396,7 +396,8 @@ nav a {
 
 #venue-right p {
     text-align: justify;
-    font-size: 14pt;
+    font-size: 12pt;
+	font-family: "Libre Franklin";
 }
 
 @media only screen and ((min-width: 1251px) and (min-height: 851px)) {
