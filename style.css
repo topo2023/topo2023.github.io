@@ -36,7 +36,7 @@ article {
 }
 
 .topo-t-margin {
-	margin-top: 30px;
+	/*  margin-top: 30px; */
 }
 
 h1 {
@@ -146,7 +146,7 @@ h3 {
 /********************************************************************/
 
 .abstract {
-    font-size: 13pt;
+    font-size: 12pt;
     line-height: 1.5em;
     text-align: right;
     font-family: "Libre Franklin";
@@ -213,7 +213,7 @@ h3 {
 
 #home-logos {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 #home-logos img { }
@@ -226,7 +226,7 @@ h3 {
 
 nav {
 	z-index: 10;
-	margin-top: 50px;
+	margin-top: 10px;
 	text-align: right;
 }
 
@@ -254,13 +254,13 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 16pt;
+	font-size: 15pt;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
 
 .descrip {
-    font-size: 12pt;
+    font-size: 11pt;
     color:#444;
     margin-top:0px;
     padding: 0;
