@@ -148,8 +148,8 @@ h3 {
 .abstract {
     font-size: 12pt;
     line-height: 1.5em;
-    text-align: right;
     font-family: "Libre Franklin";
+    text-align: justify;
 }
 
 @media only screen and ((min-width: 1201px) and (min-height: 851px)) {
