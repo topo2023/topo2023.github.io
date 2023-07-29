@@ -164,7 +164,7 @@ h3 {
 
     #home-invited {
         text-align: left;
-        flex: 40%;
+        flex: 33%;
         padding-left: 50px;
     }
 
@@ -182,7 +182,7 @@ h3 {
     
     .abstract {
         max-width: 660px;
-    	padding-left: 30px;
+    	padding-left: 140px;
     }
     
 }
