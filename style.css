@@ -316,6 +316,7 @@ nav a {
 #info-sub2 {
 	display: flex;
 	padding-top: 30px;
+	justify-content: center;
 }
 
 /* Normal screen */
