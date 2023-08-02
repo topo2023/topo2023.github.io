@@ -152,13 +152,6 @@ h3 {
     text-align: justify;
 }
 
-.abstract-ws {
-    font-size: 12pt;
-    line-height: 1.5em;
-    font-family: "Libre Franklin";
-    text-align: justify;
-}
-
 @media only screen and ((min-width: 1201px) and (min-height: 851px)) {
     
     /*    */
@@ -277,11 +270,25 @@ nav a {
 
 
 #info {
-	/* background-color: beige; */
 	scroll-snap-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.abstract-ws {
+    font-size: 12pt;
+    line-height: 1.5em;
+    font-family: "Libre Franklin";
+    text-align: justify;
+}
+
+@media only screen and (min-width: 1201px) and (min-height: 851px) and (max-height: 1300px) {
+	/* LAPTOP */
+	.abstract-ws {
+		padding-left: 140px;
+		padding-left: 140px;
+	}
 }
 
 #info-info {
@@ -291,10 +298,6 @@ nav a {
 
 #info-info > h3 {
 	text-align: center;
-}
-
-#info-info > p {
-	font-size: 16pt;
 }
 
 #info-keydates {
