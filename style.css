@@ -74,12 +74,11 @@ h3 {
 /********************************************************************/
 
 /* BIG SCREEN */
-
+/*
 @media only screen and (min-width: 1201px) and (min-height: 1301px) {
     
     .wrapper {
         min-height: 700px;
-        /* max-height: 700px; */
         min-width: 1100px;
         max-width: 1100px;
         margin-top: 50px;
@@ -94,10 +93,11 @@ h3 {
     }
     
 }
+*/
 
 /* NORMAL LAPTOP SCREEN  */
 
-@media only screen and (min-width: 1201px) and (min-height: 851px) and (max-height: 1300px) {
+@media only screen and (min-width: 1201px) and (min-height: 851px) {
 
     main {
         overflow-y: scroll;
@@ -152,14 +152,13 @@ h3 {
     text-align: justify;
 }
 
+/* Normal Screen */
 @media only screen and ((min-width: 1201px) and (min-height: 851px)) {
     
     /*    */
     
     #home-top {
         display: flex;
-        /*justify-content: center;
-        align-items: center;*/
     }
 
     #home-invited {
@@ -187,6 +186,7 @@ h3 {
     
 }
 
+/* Mobile Tablet */
 @media only screen and ((max-width: 1200px) or (max-height: 850px)) {
 	#home-description {
         	text-align: center;
@@ -231,6 +231,7 @@ nav {
         text-align: center;
 }
 
+/* Mobile Tablet */
 @media only screen and ((max-width: 1200px) or (max-height: 850px)) {
     nav {
         text-align: center;
@@ -283,8 +284,8 @@ nav a {
     text-align: justify;
 }
 
-@media only screen and (min-width: 1201px) and (min-height: 851px) and (max-height: 1300px) {
-	/* LAPTOP */
+/* Normal Screen */
+@media only screen and (min-width: 1201px) and (min-height: 851px) {
 	.abstract-ws {
 		padding-left: 140px;
 		padding-right: 140px;
@@ -347,8 +348,8 @@ nav a {
 	appearance: none;
 }
 
+    /* Normal screen */
 @media only screen and ((min-width: 1251px) and (min-height: 851px)) {
-    /* Normal or big screen */
 	.regDivParent {
 	    display: flex;
 	    gap: 20px;
@@ -359,8 +360,8 @@ nav a {
 	}
 }
 
-@media only screen and ((max-width: 1250px) or (max-height: 850px)) {
     /* Phone */
+@media only screen and ((max-width: 1250px) or (max-height: 850px)) {
     .regDivParent {
         display: flex;
         flex-direction: column;
@@ -415,6 +416,7 @@ nav a {
     line-height: 1.5em;
 }
 
+/* Normal screen */
 @media only screen and ((min-width: 1251px) and (min-height: 851px)) {
     #venue-content {
         display: flex;
@@ -434,6 +436,7 @@ nav a {
     }
 }
 
+/* Phone or tablet */
 @media only screen and ((max-width: 1250px) or (max-height: 850px)) {
     #venue-content {
         display: flex;
