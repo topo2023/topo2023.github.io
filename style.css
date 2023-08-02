@@ -29,12 +29,22 @@ article {
 /********************************************************************/
 
 #home-title-container {
-	padding-left: 50px;
 	padding-bottom: 30px;
-	float: right;
-	text-align: right;
 }
 
+@media only screen and (min-width: 1201px) and (min-height: 851px) {
+	#home-title-container {
+		padding-left: 50px;
+		float: right;
+		text-align: right;
+	}
+}
+
+@media only screen and ((max-width: 1200px) or (max-height: 850px)) {
+	#home-title-container {
+	}
+}
+	
 .topo-t-margin {
 	/*  margin-top: 30px; */
 }
@@ -73,27 +83,6 @@ h3 {
 
 /********************************************************************/
 
-/* BIG SCREEN */
-/*
-@media only screen and (min-width: 1201px) and (min-height: 1301px) {
-    
-    .wrapper {
-        min-height: 700px;
-        min-width: 1100px;
-        max-width: 1100px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    article {
-        width: 100vw;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-    }
-    
-}
-*/
 
 /* NORMAL LAPTOP SCREEN  */
 
