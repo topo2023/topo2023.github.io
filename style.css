@@ -337,16 +337,16 @@ nav a {
 	#info-commitee {
 		min-width: 350px;
 	}
-
-	#info-sub2 {
-        	flex-direction: column;
-	}
 	
 }
 
 
 /* Phone or tablet */
 @media only screen and ((max-width: 1250px) or (max-height: 850px)) {
+
+	#info-sub2 {
+        	flex-direction: column;
+	}
 	
 }
 
