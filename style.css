@@ -302,7 +302,6 @@ nav a {
 }
 
 #info-keydates {
-	min-width: 300px;
 	text-align: center;
 }
 
@@ -311,8 +310,35 @@ nav a {
 }
 
 #info-commitee {
-	min-width: 300px;
 	text-align: center;
+}
+
+#info-sub2 {
+	display: flex;
+	padding-top: 30px;
+}
+
+/* Normal screen */
+@media only screen and (min-width: 1251px) and (min-height: 851px) {
+		
+	#info-keydates {
+		min-width: 350px;
+	}
+		
+	#info-commitee {
+		min-width: 350px;
+	}
+
+	#info-sub2 {
+        	flex-direction: column;
+	}
+	
+}
+
+
+/* Phone or tablet */
+@media only screen and ((max-width: 1250px) or (max-height: 850px)) {
+	
 }
 
 #info-commitee > h3 {
@@ -440,7 +466,7 @@ nav a {
 @media only screen and ((max-width: 1250px) or (max-height: 850px)) {
     #venue-content {
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction:column;
         max-width: 1200px;
         width: 100%;
     }
