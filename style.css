@@ -270,8 +270,11 @@ nav a {
 
 
 #info {
-    background-color: beige;
-    scroll-snap-align: center;
+	/* background-color: beige; */
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #info-info {
