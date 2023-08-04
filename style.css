@@ -216,12 +216,12 @@ h3 {
 /********************************************************************/
 
 nav {
-	z-index: 10;
 	margin-top: 20px;
         text-align: center;
 }
 
 /* Mobile Tablet */
+
 @media only screen and ((max-width: 1200px) or (max-height: 850px)) {
     nav {
         text-align: center;
@@ -504,14 +504,18 @@ nav a {
 }
 
 table {
-	width: 700px;
+	width: 800px;
+	/*
 	max-width: 700px;
+	*/
 	margin: 0 auto;
+	/*
 	margin-top: 20px;
 	margin-bottom: 20px;
+	*/
 	text-align: center;
 	table-layout: fixed;
-	font-size: 14pt;
+	font-size: 13pt;
 	border-collapse: collapse;
 }
 
@@ -519,7 +523,6 @@ td {
 	border-collapse: collapse;
 	border-bottom: 1px solid #aaa;
 	margin: 0;
-	padding: 0;
 	padding: 10px;
 }
 
@@ -532,9 +535,6 @@ th {
 }
 
 
-/************************************************/
-/************************************************/
-/************************************************/
 /************************************************/
 
 .topo-div-day-hidden {
