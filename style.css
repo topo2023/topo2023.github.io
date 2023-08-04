@@ -183,10 +183,6 @@ h3 {
 		flex: 60%;
 	}
 	
-	#home-description > h3 {
-		text-align: right;
-	}
-	
 	.abstract {
 		max-width: 660px;
 		padding-left: 155px;
