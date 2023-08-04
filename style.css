@@ -479,3 +479,97 @@ nav a {
         flex: 100%;
     }
 }
+
+
+
+
+
+
+.topo-today {
+	background-color: #afe;
+}
+
+table {
+	width: 700px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	table-layout: fixed;
+	font-size: 14pt;
+	border-collapse: collapse;
+}
+
+td {
+	border-collapse: collapse;
+	border-bottom: 1px solid #aaa;
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+}
+
+th {
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	border-collapse: collapse;
+	font-weight: normal;
+	padding: 10px;
+}
+
+
+/************************************************/
+/************************************************/
+/************************************************/
+/************************************************/
+
+
+.topo-div-day-hidden {
+        display: none !important;
+        border: 0px;
+}
+
+.topo-td-hidden {
+        max-height: 0px !important;
+        border: 0px !important;
+}
+
+
+.topo-cell-clickable {
+	-webkit-transition: color 0.5s; 
+	-moz-transition: color 0.5s; 
+	-ms-transition: color 0.5s; 
+	-o-transition: color 0.5s; 
+	transition: color 0.5s; 
+}
+
+.topo-cell-clicked {
+        background: #afa;
+        border-bottom: 0px;
+}
+
+.topo-cell-clickable:hover {
+        cursor: pointer;
+        color: blue;
+}
+
+.topo-description {
+        display: block;
+        padding: 40px;
+        background: #afa;
+}
+
+.topo-schedule-td {
+	-webkit-transition: max-height 0.5s; 
+	-moz-transition: max-height 0.5s; 
+	-ms-transition: max-height 0.5s; 
+	-o-transition: max-height 0.5s; 
+	transition: max-height 0.5s; 
+        /* */
+        max-height: 600px;
+        padding: 0px;
+        border-bottom: 1px solid #000; 
+        border-left: 1px solid #000; 
+        border-right: 1px solid #000; 
+}
+
