@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-	font-size: 20pt;
+	font-size: 19pt;
 	letter-spacing: 1px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -80,6 +80,23 @@ h3 {
 	padding-right: 0px;
 	color: firebrick;
 	font-weight: bold;
+}
+
+.h-home-date, .h-home-title, .h-home-place {
+	padding-left: 155px;
+	text-align: justify;
+}
+
+.h-home-date {
+	font-size: 18pt !important;
+}
+
+.h-home-title {
+	font-size: 21pt !important;
+}
+
+.h-home-place {
+	font-size: 17pt !important;
 }
 
 
@@ -195,6 +212,11 @@ h3 {
 	}
 	
 	h1 {
+		text-align: center;
+	}
+	
+	.h-home-date, .h-home-title, .h-home-place {
+		padding-left: 0px;
 		text-align: center;
 	}
 	
