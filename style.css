@@ -537,7 +537,6 @@ th {
 /************************************************/
 /************************************************/
 
-
 .topo-div-day-hidden {
         display: none !important;
         border: 0px;
@@ -547,7 +546,6 @@ th {
         max-height: 0px !important;
         border: 0px !important;
 }
-
 
 .topo-cell-clickable {
 	-webkit-transition: color 0.5s; 
