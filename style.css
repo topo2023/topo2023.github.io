@@ -33,6 +33,7 @@ article {
 }
 
 @media only screen and (min-width: 1101px) and (min-height: 801px) {
+	
 	#home-title-container {
 		padding-left: 50px;
 		float: right;
@@ -41,6 +42,7 @@ article {
 }
 
 @media only screen and ((max-width: 1100px) or (max-height: 800px)) {
+	
 	#home-title-container {
 	}
 }
@@ -88,26 +90,25 @@ h3 {
 
 @media only screen and (min-width: 1101px) and (min-height: 801px) {
 
-    main {
-        overflow-y: scroll;
-        scroll-snap-type: y mandatory;
-    }
-
-    .wrapper {
-        margin: 0 auto;
-        min-width: 1050px;
-        max-width: 1050px;
-        min-height: 700px;
-        /* max-height: 700px; */
-    }
-
-    article {
-        width: 100vw;
-        height: 100vh;
-        scroll-snap-stop: always;
-        justify-content: center;
-        align-items: center;
-    }
+	main {
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+	}
+	
+	.wrapper {
+		margin: 0 auto;
+		min-width: 1050px;
+		max-width: 1050px;
+		min-height: 700px;
+	}
+	
+	article {
+		width: 100vw;
+		height: 100vh;
+		scroll-snap-stop: always;
+		justify-content: center;
+		align-items: center;
+	}
 
 }
 
@@ -115,96 +116,98 @@ h3 {
 
 @media only screen and ((max-width: 1100px) or (max-height: 800px)) {
 
-    .wrapper {
-        margin: 0 auto;
-        padding: 20px;
-        max-width: 1050px;
-    }
+	.wrapper {
+		margin: 0 auto;
+		padding: 20px;
+		max-width: 1050px;
+	}
+	
+	article {
+		width: 100vw;
+	}
 
-    article {
-        width: 100vw;
-    }
-    
 }
 
 #home {
-    scroll-snap-align: start;
+	scroll-snap-align: start;
 }
 
 
 /********************************************************************/
 
 .abstract {
-    font-size: 12.3pt;
-    line-height: 1.5em;
-    font-family: "Libre Franklin";
-    text-align: justify;
-    hyphens: auto;
+	font-size: 12.3pt;
+	line-height: 1.5em;
+	font-family: "Libre Franklin";
+	text-align: justify;
+	hyphens: auto;
 }
 
 /* Normal Screen */
 @media only screen and ((min-width: 1101px) and (min-height: 801px)) {
-    
-    /*    */
-    
-    #home-top {
-        display: flex;
-    }
-
-    #home-invited {
-        text-align: left;
-        flex: 33%;
-        padding-left: 50px;
-    }
-
-    #home-invited > h3 {
-        text-align: left !important;
-    }
 	
-    #home-description {
-        flex: 60%;
-    }
-
-    #home-description > h3 {
-        text-align: right;
-    }
-    
-    .abstract {
-        max-width: 660px;
-    	padding-left: 155px;
-    }
-    
-}
-
-/* Mobile Tablet */
-@media only screen and ((max-width: 1100px) or (max-height: 800px)) {
-	#home-description {
-        	text-align: center;
-	}
-
-	#home-invited {
-        	text-align: center;
-	}
-    
+	/*    */
+	
 	#home-top {
-	        flex-direction: column;
-	        padding-top: 40px;
+		display: flex;
 	}
-    
-	h1 {
-	text-align: center;
+	
+	#home-invited {
+		text-align: left;
+		flex: 33%;
+		padding-left: 50px;
+	}
+	
+	#home-invited > h3 {
+		text-align: left !important;
+	}
+	
+	#home-description {
+		flex: 60%;
+	}
+	
+	#home-description > h3 {
+		text-align: right;
 	}
 	
 	.abstract {
-	padding-top: 20px;
-	max-width: 650px;
-	margin: 0 auto;
+		max-width: 660px;
+		padding-left: 155px;
+	}
+
+}
+
+/* Mobile Tablet */
+
+@media only screen and ((max-width: 1100px) or (max-height: 800px)) {
+	
+	#home-description {
+		text-align: center;
+	}
+	
+	#home-invited {
+		text-align: center;
+	}
+	
+	#home-top {
+		flex-direction: column;
+		padding-top: 40px;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	.abstract {
+		padding-top: 20px;
+		max-width: 650px;
+		margin: 0 auto;
 	}
 }
 
 #home-logos {
-    text-align: center;
-    padding-top: 20px;
+	text-align: center;
+	padding-top: 20px;
 }
 
 #home-logos img { }
@@ -255,11 +258,11 @@ nav div {
 }
 
 .descrip {
-    font-size: 11pt;
-    color:#444;
-    margin-top:0px;
-    padding: 0;
-    font-family: "Libre Franklin";
+	font-size: 11pt;
+	color:#444;
+	margin-top:0px;
+	padding: 0;
+	font-family: "Libre Franklin";
 }
 /********************************************************************/
 
@@ -302,10 +305,12 @@ nav div {
 
 /* Normal Screen */
 @media only screen and (min-width: 1101px) and (min-height: 801px) {
+	
 	.abstract-ws {
 		padding-left: 140px;
 		padding-right: 140px;
 	}
+	
 }
 
 #info-info {
@@ -350,8 +355,9 @@ nav div {
 
 
 /* Phone or tablet */
-@media only screen and ((max-width: 1100px) or (max-height: 800px)) {
 
+@media only screen and ((max-width: 1100px) or (max-height: 800px)) {
+	
 	#info-sub2 {
         	flex-direction: column;
 	}
@@ -391,7 +397,8 @@ nav div {
 	appearance: none;
 }
 
-    /* Normal screen */
+/* Normal screen */
+
 @media only screen and ((min-width: 1101px) and (min-height: 801px)) {
 	.regDivParent {
 	    display: flex;
@@ -403,7 +410,8 @@ nav div {
 	}
 }
 
-    /* Phone */
+/* Phone */
+
 @media only screen and ((max-width: 1100px) or (max-height: 800px)) {
     .regDivParent {
         display: flex;
@@ -439,69 +447,65 @@ nav div {
 #registration-msg {
 	font-size: 14pt;
 	text-align: justify;
-    font-family: "Libre Franklin";
-    padding: 0px;
-    margin: 10px 0px;
+	font-family: "Libre Franklin";
+	padding: 0px;
+	margin: 10px 0px;
 }
 
-
-/********************************************************************/
 /********************************************************************/
 
 #venue {
-    scroll-snap-align: center;
+	scroll-snap-align: center;
 }
 
 #venue-right p {
-    text-align: justify;
-    font-size: 12pt;
-    font-family: "Libre Franklin";
-    line-height: 1.5em;
+	text-align: justify;
+	font-size: 12pt;
+	font-family: "Libre Franklin";
+	line-height: 1.5em;
 }
 
 /* Normal screen */
 @media only screen and ((min-width: 1101px) and (min-height: 801px)) {
-    #venue-content {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        max-width: 1100px;
-        width: 100%;
-    }
-
-    #venue-left {
-        flex: 40%;
-    }
-
-    #venue-right {
-        flex: 60%;
-    }
+	#venue-content {
+		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		max-width: 1100px;
+		width: 100%;
+	}
+	
+	#venue-left {
+		flex: 40%;
+	}
+	
+	#venue-right {
+		flex: 60%;
+	}
 }
 
 /* Phone or tablet */
+
 @media only screen and ((max-width: 1100px) or (max-height: 800px)) {
-    #venue-content {
-        display: flex;
-        flex-direction:column;
-        max-width: 1100px;
-        width: 100%;
-    }
-
-    #venue-left {
-        flex: 100%;
-        text-align: center;
-    }
-
-    #venue-right {
-        flex: 100%;
-    }
+	
+	#venue-content {
+		display: flex;
+		flex-direction: column;
+		max-width: 1100px;
+		width: 100%;
+	}
+	
+	#venue-left {
+		flex: 100%;
+		text-align: center;
+	}
+	
+	#venue-right {
+		flex: 100%;
+	}
+	
 }
-
-
-
-
-
 
 .topo-today {
 	background-color: #afe;
