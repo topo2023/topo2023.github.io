@@ -275,6 +275,20 @@ nav a {
 	align-items: center;
 }
 
+#program1 {
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#program2 {
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .abstract-ws {
     font-size: 12pt;
     line-height: 1.5em;
