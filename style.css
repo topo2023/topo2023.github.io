@@ -220,26 +220,22 @@ h3 {
 
 nav {
 	margin-top: 20px;
-        text-align: center;
+	justify-content: center;
+	align-content: center;
+	display: flex;
 }
 
-/* Mobile Tablet */
-
-/*
-
-@media only screen and ((max-width: 1100px) or (max-height: 800px)) {
-    nav {
-        text-align: center;
-    }
+nav a{
+	text-decoration: none;
 }
-
-*/
 
 nav div {
-	font-size: 15pt;
-	margin-left: 10px;
+	margin-left: 20px;
 	text-decoration: none;
-	padding: 10px;
+	border: 1px solid black;
+	padding: 10px 20px;
+	font-size:16pt;
+	text-decoration: none;
 	text-align: center;
 	color: #000;
 	-webkit-transition: background-color 500ms linear;
@@ -247,6 +243,10 @@ nav div {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
+}
+
+nav img {
+	margin-left: 30px;
 }
 
 /********************************************************************/
