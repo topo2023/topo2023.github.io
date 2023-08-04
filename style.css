@@ -222,13 +222,17 @@ nav {
 
 /* Mobile Tablet */
 
+/*
+
 @media only screen and ((max-width: 1100px) or (max-height: 800px)) {
     nav {
         text-align: center;
     }
 }
 
-nav a {
+*/
+
+nav div {
 	font-size: 15pt;
 	margin-left: 10px;
 	text-decoration: none;
