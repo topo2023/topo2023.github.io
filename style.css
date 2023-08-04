@@ -226,11 +226,11 @@ nav {
 }
 
 nav a {
+	margin-left: 30px;
 	text-decoration: none;
 }
 
 .nav-div {
-	margin-left: 30px;
 	text-decoration: none;
 	border: 1px solid black;
 	padding: 8px 15px;
@@ -251,7 +251,6 @@ nav a {
 }
 
 nav img {
-	margin-left: 30px;
 }
 
 /********************************************************************/
