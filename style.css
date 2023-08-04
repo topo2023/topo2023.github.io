@@ -567,8 +567,10 @@ th {
 
 .topo-description {
         display: block;
-        padding: 40px;
+        padding: 25px;
         background: #afa;
+	text-align: justify;
+	hyphens: auto;
 }
 
 .topo-schedule-td {
