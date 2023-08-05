@@ -29,7 +29,7 @@ article {
 /********************************************************************/
 
 #home-title-container {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 /* Normal screen  */
@@ -43,7 +43,7 @@ article {
 	}
 	
 	#home-title-container img {
-		width: 175px;
+		width: 150px;
 	}
 }
 
@@ -56,7 +56,7 @@ article {
 	}
 	
 	#home-title-container img {
-		width: 125px;
+		width: 100px;
 	}
 }
 	
@@ -101,15 +101,15 @@ h3 {
 }
 
 .h-home-date {
-	font-size: 18pt !important;
+	font-size: 20pt !important;
 }
 
 .h-home-title {
-	font-size: 21pt !important;
+	font-size: 23.2pt !important;
 }
 
 .h-home-place {
-	font-size: 16.5pt !important;
+	font-size: 18.7pt !important;
 }
 
 /********************************************************************/
