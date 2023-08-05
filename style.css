@@ -97,7 +97,7 @@ h3 {
 
 .h-home-date, .h-home-title, .h-home-place {
 	padding-left: 155px;
-	text-align: justify;
+	text-align: center; /* or justify */
 }
 
 .h-home-date {
@@ -582,20 +582,21 @@ table {
 	text-align: center;
 	table-layout: fixed;
 	font-size: 13pt;
-	border-collapse: collapse;
+	/*! border-collapse: collapse; */
 }
 
 td {
-	border-collapse: collapse;
-	border-bottom: 1px solid #aaa;
+	/*! border-collapse: collapse; */
+	/*! border-bottom: 1px solid #aaa; */
 	margin: 0;
 	padding: 10px;
+	border: 1px solid #ddd;
 }
 
 th {
-	border-bottom: 1px solid #aaa;
-	border-top: 1px solid #aaa;
-	border-collapse: collapse;
+	border: 1px solid #ddd;
+	/*! border-top: 1px solid #aaa; */
+	/*! border-collapse: collapse; */
 	font-weight: normal;
 	padding: 10px;
 }
