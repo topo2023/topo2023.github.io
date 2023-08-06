@@ -26,6 +26,11 @@ article {
 	position: relative;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 /********************************************************************/
 
 #home-title-container {
