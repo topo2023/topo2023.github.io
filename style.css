@@ -69,27 +69,8 @@ a {
 	/*  margin-top: 30px; */
 }
 
-h1 {
-	font-size: 78pt;
-    	line-height: 46pt;
-    	letter-spacing: -4pt;
-	text-transform: uppercase;
-	color: #111;
-	margin: 0px;
-	padding: 0px;
-	font-family: "HausFromFontBlastDesign";
-}
-
-h2 {
-	font-size: 24pt;
-	text-transform: uppercase;
-	letter-spacing: 6px;
-	color: #111;
-	margin: 0px;
-}
-
-h3 {
-	font-size: 19pt;
+h1, h2, h3 {
+	font-size: 18pt;
 	letter-spacing: 1px;
 	padding-top: 10px;
 	padding-bottom: 10px;
