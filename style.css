@@ -42,7 +42,7 @@ a {
 @media only screen and (min-width: 1001px) and (min-height: 701px) {
 	
 	#home-title-container {
-		padding-left: 50px;
+		padding-left: 30px;
 		float: right;
 		text-align: right;
 	}
@@ -106,15 +106,15 @@ h3 {
 }
 
 .h-home-date {
-	font-size: 19.5pt !important;
+	font-size: 17pt !important;
 }
 
 .h-home-title {
-	font-size: 23.2pt !important;
+	font-size: 18pt !important;
 }
 
 .h-home-place {
-	font-size: 18.7pt !important;
+	font-size: 15pt !important;
 }
 
 /********************************************************************/
@@ -130,9 +130,9 @@ h3 {
 	
 	.wrapper {
 		margin: 0 auto;
-		min-width: 1050px;
-		max-width: 1050px;
-		min-height: 700px;
+		min-width: 950px;
+		max-width: 950px;
+		/*! min-height: 700px; */
 	}
 	
 	article {
@@ -169,7 +169,7 @@ h3 {
 /********************************************************************/
 
 .abstract {
-	font-size: 12.3pt;
+	font-size: 11.5pt;
 	line-height: 1.5em;
 	font-family: "Libre Franklin";
 	text-align: justify;
@@ -186,7 +186,7 @@ h3 {
 	#home-invited {
 		text-align: left;
 		flex: 33%;
-		padding-left: 50px;
+		padding-left: 30pt;
 	}
 	
 	#home-invited > h3 {
@@ -266,7 +266,7 @@ nav a {
 .nav-div {
 	text-decoration: none;
 	padding: 8px 15px;
-	font-size: 16pt;
+	font-size: 15pt;
 	text-decoration: none;
 	text-align: center;
 	color: #000;
@@ -308,13 +308,13 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 15pt;
+	font-size: 14pt;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
 
 .descrip {
-	font-size: 11pt;
+	font-size: 10pt;
 	color:#444;
 	margin-top:0px;
 	padding: 0;
@@ -538,7 +538,7 @@ nav a {
 
 #venue-right p {
 	text-align: justify;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-family: "Libre Franklin";
 	line-height: 1.5em;
 }
