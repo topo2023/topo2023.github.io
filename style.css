@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap');
 
 /********************************************************************/
 
@@ -13,7 +12,7 @@ body {
 	padding: 0px;
 	width: 100%;
 	height: 100%;
-	font-family: "Old Standard TT", sans-serif;
+	font-family: "Source Sans 3", sans-serif;
 }
 
 main {
@@ -84,18 +83,19 @@ h1, h2, h3 {
 .h-home-date, .h-home-title, .h-home-place {
 	padding-left: 155px;
 	text-align: center; /* or justify */
+	padding-top: 0;
 }
 
 .h-home-date {
-	font-size: 16pt !important;
-}
-
-.h-home-title {
 	font-size: 18pt !important;
 }
 
+.h-home-title {
+	font-size: 20pt !important;
+}
+
 .h-home-place {
-	font-size: 15pt !important;
+	font-size: 16pt !important;
 }
 
 /********************************************************************/
@@ -150,9 +150,9 @@ h1, h2, h3 {
 /********************************************************************/
 
 .abstract {
-	font-size: 11.5pt;
-	line-height: 1.5em;
-	font-family: "Libre Franklin";
+	font-size: 11pt;
+	line-height: 1.6em;
+	font-family: "Source Sans 3", sans-serif;
 	text-align: justify;
 	hyphens: auto;
 }
@@ -167,11 +167,14 @@ h1, h2, h3 {
 	#home-invited {
 		text-align: left;
 		flex: 33%;
-		padding-left: 30pt;
+		padding-left: 28pt;
+		margin: 0;
 	}
 	
 	#home-invited > h3 {
 		text-align: left !important;
+		margin-top: 0px;
+		padding-top: 0px;
 	}
 	
 	#home-description {
@@ -181,6 +184,9 @@ h1, h2, h3 {
 	.abstract {
 		max-width: 660px;
 		padding-left: 155px;
+		padding-top: 0px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
 }
@@ -246,8 +252,8 @@ nav a {
 
 .nav-div {
 	text-decoration: none;
-	padding: 8px 15px;
-	font-size: 15pt;
+	padding: 7px 14px;
+	font-size: 12pt;
 	text-decoration: none;
 	text-align: center;
 	color: #000;
@@ -258,6 +264,7 @@ nav a {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
+	font-weight: 300;
 }
 
 .nav-div:hover {
@@ -269,6 +276,10 @@ nav a {
 
 	nav a {
 		margin-left: 30px;
+		display: flex;
+		justify-items: center;
+		align-content: center;
+		justify-content: center;
 	}
 	
 }
@@ -289,17 +300,19 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 14pt;
+	font-size: 13pt;
 	font-weight: bold;
 	margin-bottom: 0px;
+	margin-top: 5px;
 }
 
 .descrip {
-	font-size: 10pt;
+	font-size: 11pt;
 	color:#444;
 	margin-top:0px;
 	padding: 0;
-	font-family: "Libre Franklin";
+	/*! font-family: "Libre Franklin"; */
+	font-weight: 300;
 }
 
 /********************************************************************/
@@ -353,7 +366,7 @@ nav a {
 .abstract-ws {
     font-size: 12pt;
     line-height: 1.5em;
-    font-family: "Libre Franklin";
+    /*! font-family: "Libre Franklin"; */
     text-align: justify;
 }
 
@@ -519,8 +532,8 @@ nav a {
 
 #venue-right p {
 	text-align: justify;
-	font-size: 11pt;
-	font-family: "Libre Franklin";
+	font-size: 12pt;
+	/*! font-family: "Libre Franklin"; */
 	line-height: 1.5em;
 }
 
