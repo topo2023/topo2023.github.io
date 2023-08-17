@@ -81,7 +81,7 @@ h1, h2, h3 {
 }
 
 .h-home-date, .h-home-title, .h-home-place {
-	padding-left: 120px;
+	padding-left: 90px;
 	text-align: center; /* or justify */
 	padding-top: 0;
 }
@@ -91,7 +91,7 @@ h1, h2, h3 {
 }
 
 .h-home-title {
-	font-size: 16pt !important;
+	font-size: 17pt !important;
 	/*! font-weight: 500; */
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3 {
 	
 	.wrapper {
 		margin: 0 auto;
-		width: 900px;
+		width: 800px;
 		/*! max-width: 919px; */
 		/*! min-height: 700px; */
 	}
@@ -167,7 +167,7 @@ h1, h2, h3 {
 	
 	#home-invited {
 		text-align: left;
-		flex: 30%;
+		flex: 22%;
 		padding-left: 28pt;
 		margin: 0;
 	}
@@ -179,12 +179,12 @@ h1, h2, h3 {
 	}
 	
 	#home-description {
-		flex: 60%;
+		flex: 59%;
 	}
 	
 	.abstract {
 		max-width: 660px;
-		padding-left: 120px;
+		padding-left: 90px;
 		padding-top: 0px;
 		margin-top: 5px;
 		margin-bottom: 5px;
@@ -221,8 +221,8 @@ h1, h2, h3 {
 	}
 	
 	.abstract {
-		padding-top: 20px;
-		max-width: 650px;
+		padding: 10px;
+		/*! max-width: 650px; */
 		margin: 0 auto;
 	}
 
@@ -322,7 +322,7 @@ nav a {
 
 .email-a {
 	text-decoration:none;
-	font-size: 14pt;
+	font-size: 13pt;
 	font-weight: bold;
 	color: black;
 	padding: 0;
@@ -339,6 +339,8 @@ nav a {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
+	/*! max-width: 300px; */
+	/*! text-align: center; */
 }
 
 .email-div:hover {
@@ -367,10 +369,11 @@ nav a {
 }
 
 .abstract-ws {
-    font-size: 12pt;
+    font-size: 11pt;
     line-height: 1.5em;
     /*! font-family: "Libre Franklin"; */
     text-align: justify;
+    padding: 10px;
 }
 
 /* Normal Screen */
@@ -380,6 +383,7 @@ nav a {
 		padding-left: 130px;
 		padding-right: 130px;
 		font-weight: 300;
+		/*! max-width: 600px; */
 	}
 
 }
@@ -415,11 +419,11 @@ nav a {
 @media only screen and (min-width: 901px) and (min-height: 601px) {
 		
 	#info-keydates {
-		min-width: 275px;
+		min-width: 234px;
 	}
 		
 	#info-commitee {
-		min-width: 350px;
+		/*! min-width: 350px; */
 	}
 	
 	#info-sub2 {
@@ -536,7 +540,7 @@ nav a {
 
 #venue-right p {
 	text-align: justify;
-	font-size: 12pt;
+	font-size: 11pt;
 	/*! font-family: "Libre Franklin"; */
 	line-height: 1.5em;
 	font-weight: 300;
@@ -561,7 +565,7 @@ nav a {
 	}
 	
 	#venue-right {
-		flex: 60%;
+		flex: 44%;
 	}
 
 }
@@ -584,6 +588,8 @@ nav a {
 	
 	#venue-right {
 		flex: 100%;
+		padding: 10px;
+		/*! max-width: 600; */
 	}
 
 }
