@@ -41,13 +41,13 @@ a {
 @media only screen and (min-width: 1001px) and (min-height: 701px) {
 	
 	#home-title-container {
-		padding-left: 30px;
+		padding-left: 39px;
 		float: right;
 		text-align: right;
 	}
 	
 	#home-title-container img {
-		width: 150px;
+		width: 134px;
 	}
 }
 
@@ -69,10 +69,10 @@ a {
 }
 
 h1, h2, h3 {
-	font-size: 18pt;
+	font-size: 15pt;
 	letter-spacing: 1px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin:0px;
 	padding-left 0px;
 	padding-right: 0px;
@@ -112,8 +112,8 @@ h1, h2, h3 {
 	
 	.wrapper {
 		margin: 0 auto;
-		min-width: 950px;
-		max-width: 950px;
+		width: 900px;
+		/*! max-width: 919px; */
 		/*! min-height: 700px; */
 	}
 	
@@ -151,7 +151,7 @@ h1, h2, h3 {
 /********************************************************************/
 
 .abstract {
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 1.5em;
 	font-family: "Source Sans 3", sans-serif;
 	text-align: justify;
@@ -167,7 +167,7 @@ h1, h2, h3 {
 	
 	#home-invited {
 		text-align: left;
-		flex: 33%;
+		flex: 30%;
 		padding-left: 28pt;
 		margin: 0;
 	}
@@ -242,7 +242,7 @@ h1, h2, h3 {
 /********************************************************************/
 
 nav {
-	margin-top: 20px;
+	margin-top: 10px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -266,7 +266,7 @@ nav a {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
-	font-weight: 300;
+	/*! font-weight: 300; */
 }
 
 .nav-div:hover {
@@ -302,19 +302,20 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 13pt;
+	font-size: 12pt;
 	font-weight: bold;
 	margin-bottom: 0px;
 	margin-top: 5px;
 }
 
 .descrip {
-	font-size: 11pt;
+	font-size: 10pt;
 	color:#444;
 	margin-top:0px;
 	padding: 0;
 	/*! font-family: "Libre Franklin"; */
 	font-weight: 300;
+	margin-bottom: 10px;
 }
 
 /********************************************************************/
@@ -376,8 +377,9 @@ nav a {
 @media only screen and (min-width: 1001px) and (min-height: 701px) {
 	
 	.abstract-ws {
-		padding-left: 140px;
-		padding-right: 140px;
+		padding-left: 130px;
+		padding-right: 130px;
+		font-weight: 300;
 	}
 
 }
@@ -413,7 +415,7 @@ nav a {
 @media only screen and (min-width: 1001px) and (min-height: 701px) {
 		
 	#info-keydates {
-		min-width: 350px;
+		min-width: 275px;
 	}
 		
 	#info-commitee {
@@ -537,6 +539,9 @@ nav a {
 	font-size: 12pt;
 	/*! font-family: "Libre Franklin"; */
 	line-height: 1.5em;
+	font-weight: 300;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 /* Normal screen */
@@ -552,7 +557,7 @@ nav a {
 	}
 	
 	#venue-left {
-		flex: 40%;
+		flex: 44%;
 	}
 	
 	#venue-right {
