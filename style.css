@@ -38,10 +38,10 @@ a {
 
 /* Normal screen  */
 
-@media only screen and (min-width: 1001px) and (min-height: 701px) {
+@media only screen and (min-width: 901px) and (min-height: 601px) {
 	
 	#home-title-container {
-		padding-left: 39px;
+		padding-left: 42px;
 		float: right;
 		text-align: right;
 	}
@@ -53,7 +53,7 @@ a {
 
 /* Cellphone or tablet  */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 	
 	#home-title-container {
 		
@@ -81,7 +81,7 @@ h1, h2, h3 {
 }
 
 .h-home-date, .h-home-title, .h-home-place {
-	padding-left: 155px;
+	padding-left: 120px;
 	text-align: center; /* or justify */
 	padding-top: 0;
 }
@@ -91,19 +91,19 @@ h1, h2, h3 {
 }
 
 .h-home-title {
-	font-size: 20pt !important;
+	font-size: 17pt !important;
 	/*! font-weight: 500; */
 }
 
 .h-home-place {
-	font-size: 16pt !important;
+	font-size: 15pt !important;
 }
 
 /********************************************************************/
 
 /* Normal screen  */
 
-@media only screen and (min-width: 1001px) and (min-height: 701px) {
+@media only screen and (min-width: 901px) and (min-height: 601px) {
 
 	main {
 		overflow-y: scroll;
@@ -129,7 +129,7 @@ h1, h2, h3 {
 
 /* TABLET AND MOBILE */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 600px) or (max-height: 900px)) {
 
 	.wrapper {
 		margin: 0 auto;
@@ -159,7 +159,7 @@ h1, h2, h3 {
 }
 
 /* Normal Screen */
-@media only screen and ((min-width: 1001px) and (min-height: 701px)) {
+@media only screen and ((min-width: 901px) and (min-height: 601px)) {
 
 	#home-top {
 		display: flex;
@@ -184,7 +184,7 @@ h1, h2, h3 {
 	
 	.abstract {
 		max-width: 660px;
-		padding-left: 155px;
+		padding-left: 120px;
 		padding-top: 0px;
 		margin-top: 5px;
 		margin-bottom: 5px;
@@ -195,7 +195,7 @@ h1, h2, h3 {
 
 /* Mobile Tablet */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 
 	#home-description {
 		text-align: center;
@@ -274,7 +274,7 @@ nav a {
 }
 
 /* Normal Screen */
-@media only screen and ((min-width: 1001px) and (min-height: 701px)) {
+@media only screen and ((min-width: 901px) and (min-height: 601px)) {
 
 	nav a {
 		margin-left: 30px;
@@ -287,7 +287,7 @@ nav a {
 }
 
 /* Mobile tablet */
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 
 	nav {
 		flex-direction: column ;
@@ -302,7 +302,7 @@ nav a {
 /********************************************************************/
 
 .keynote {
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: bold;
 	margin-bottom: 0px;
 	margin-top: 5px;
@@ -374,7 +374,7 @@ nav a {
 }
 
 /* Normal Screen */
-@media only screen and (min-width: 1001px) and (min-height: 701px) {
+@media only screen and (min-width: 901px) and (min-height: 601px) {
 	
 	.abstract-ws {
 		padding-left: 130px;
@@ -412,7 +412,7 @@ nav a {
 
 /* Normal screen */
 
-@media only screen and (min-width: 1001px) and (min-height: 701px) {
+@media only screen and (min-width: 901px) and (min-height: 601px) {
 		
 	#info-keydates {
 		min-width: 275px;
@@ -430,7 +430,7 @@ nav a {
 
 /* Phone or tablet */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 	
 	#info-sub2 {
         	flex-direction: column;
@@ -472,7 +472,7 @@ nav a {
 
 /* Normal screen */
 
-@media only screen and ((min-width: 1001px) and (min-height: 701px)) {
+@media only screen and ((min-width: 901px) and (min-height: 601px)) {
 
 	.regDivParent {
 	    display: flex;
@@ -488,7 +488,7 @@ nav a {
 
 /* Phone */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
     .regDivParent {
         display: flex;
         flex-direction: column;
@@ -545,7 +545,7 @@ nav a {
 }
 
 /* Normal screen */
-@media only screen and ((min-width: 1001px) and (min-height: 701px)) {
+@media only screen and ((min-width: 901px) and (min-height: 601px)) {
 	
 	#venue-content {
 		display: flex;
@@ -568,7 +568,7 @@ nav a {
 
 /* Phone or tablet */
 
-@media only screen and ((max-width: 1000px) or (max-height: 700px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 	
 	#venue-content {
 		display: flex;
