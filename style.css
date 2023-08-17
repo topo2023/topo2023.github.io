@@ -129,7 +129,7 @@ h1, h2, h3 {
 
 /* TABLET AND MOBILE */
 
-@media only screen and ((max-width: 600px) or (max-height: 900px)) {
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
 
 	.wrapper {
 		margin: 0 auto;
@@ -313,7 +313,6 @@ nav a {
 	color:#444;
 	margin-top:0px;
 	padding: 0;
-	/*! font-family: "Libre Franklin"; */
 	font-weight: 300;
 	margin-bottom: 10px;
 }
@@ -541,7 +540,6 @@ nav a {
 #venue-right p {
 	text-align: justify;
 	font-size: 11pt;
-	/*! font-family: "Libre Franklin"; */
 	line-height: 1.5em;
 	font-weight: 300;
 	margin-top: 8px;
