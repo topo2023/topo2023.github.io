@@ -36,8 +36,8 @@ a {
 
 #home-title-container img {
     margin: 0 auto;
-    height: 200px;
-    width: auto;
+    max-height: 200px;
+    max-width: 80%;
     
 }
 
@@ -60,6 +60,7 @@ h1, h3 {
     text-transform: uppercase;
     margin: 10px;
     letter-spacing: 0.1em;
+    line-height: 1.3em;
 }
 
 
@@ -71,8 +72,39 @@ h1, h3 {
 	line-height: 1.5em;
 	text-align: justify;
 	hyphens: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+ul {
+    font-family: "Source Sans 3";
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: justify;
+	hyphens: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#workshop table {
+     width:100%; text-align: center;
+}
+
+#workshop td {
+     min-width: 90px;
+     max-width: 100px;
+    font-family: "Source Sans 3";
+    padding: 15px 3px;
+    
+}
+#workshop tr:nth-of-type(even) { 
+    background-color:beige;
+}
+
+#workshop th {
+    font-weight: 300;
+     max-width: 100px;
 }
 
 /********************************************************************/
@@ -80,23 +112,13 @@ h1, h3 {
 #speakers {
     padding-top: 10px;
     padding-bottom: 30px;
-  background: repeating-linear-gradient(
-    45deg,
-    #f2f2ed,
-    #FFFFFF 4px,
-    #f2f2ed 4px,
-    #f2f2ed 4px
-  );
-    border: 1px solid #F8DACD;
-    border-radius: 4px;
+    background: #ffeeff;
 }
 
 
-#dates {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    background-color: #FAF4E4;
-	box-shadow: 1px 1px #F8DACD;
+#committee {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #invited-speakers {
@@ -140,8 +162,6 @@ h1, h3 {
 	padding-top: 20px;
 }
 
-#home-logos img { }
-
 .subt {
 	font-size: 18pt;
 }
@@ -178,21 +198,30 @@ nav {
 
 nav a {
 	text-decoration: none;
+    margin-left: 20px;
+}
+
+.register-div {
+    font-size: 1.4em;
+	text-decoration: underline;
+	padding: 7px 14px;
+	text-align: center;
+	color: #000;
     font-weight: 400;
-		margin-left: 20px;
-		display: flex;
-		justify-items: center;
-		align-content: center;
-		justify-content: center;
+}
+
+.register-div:hover {
+    color: firebrick;
 }
 
 .nav-div {
+    max-width: 130px;
 	text-decoration: none;
 	padding: 7px 14px;
-	text-decoration: none;
 	text-align: center;
 	color: #000;
 	background-color: #fff6e6;
+    font-weight: 400;
 	box-shadow: 1px 1px #f29f05;
 	-webkit-transition: background-color 500ms linear;
 	-moz-transition: background-color 500ms linear;
@@ -241,27 +270,6 @@ nav a {
 	align-items: center;
 }
 
-#program1 {
-	scroll-snap-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#program2 {
-	scroll-snap-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.abstract-ws {
-    font-size: 11pt;
-    line-height: 1.5em;
-    text-align: justify;
-    padding: 10px;
-}
-
 /********************************************************************/
 
 
@@ -272,6 +280,13 @@ nav a {
 }
 
 #venue-right p {
+    font-family: "Source Sans 3";
+	text-align: justify;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#arrive p {
     font-family: "Source Sans 3";
 	text-align: justify;
 	margin-top: 8px;
@@ -358,3 +373,36 @@ nav a {
   }
 }
 
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid black;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: lightgoldenrodyellow;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
