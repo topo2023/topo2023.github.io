@@ -38,7 +38,6 @@ a {
     margin: 0 auto;
     max-height: 200px;
     max-width: 80%;
-    
 }
 
 h2 {
@@ -109,16 +108,28 @@ ul {
 
 /********************************************************************/
 
+#committee {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: #FAF9F0;
+    box-shadow: 1px 1px solid #F4F1DE;
+    margin-top: 20px;
+}
+
 #speakers {
     padding-top: 10px;
     padding-bottom: 30px;
-    background: #ffeeff;
+    background: #EEEBFF;
+    box-shadow: 1px 1px solid #DCD6FF;
 }
+
 
 
 #committee {
     margin-top: 10px;
     margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 #invited-speakers {
@@ -202,16 +213,17 @@ nav a {
 }
 
 .register-div {
-    font-size: 1.4em;
+    font-size: 1.3em;
 	text-decoration: underline;
+    text-transform: uppercase;
 	padding: 7px 14px;
 	text-align: center;
-	color: #000;
+	color: orangered;
     font-weight: 400;
 }
 
 .register-div:hover {
-    color: firebrick;
+    color: black;
 }
 
 .nav-div {
