@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+/********************************************************************/
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 100%;  
+	font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+	
+#home-title-container {
+    text-align: center;
+}
+
+#home-title-container img {
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    
+}
+
+h2 {
+	font-size: 1.3em;
+	color: black;
+	font-weight: 300;
+	text-align: center; /* or justify */
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+h1, h3 {
+	font-size: 1.3em;
+	color: black;
+	font-weight: 300;
+	text-align: center; /* or justify */
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 0.1em;
+}
+
+
+/********************************************************************/
+
+.abstract {
+    font-family: "Source Sans 3";
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: justify;
+	hyphens: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/********************************************************************/
+
+#speakers {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  background: repeating-linear-gradient(
+    45deg,
+    #f2f2ed,
+    #FFFFFF 4px,
+    #f2f2ed 4px,
+    #f2f2ed 4px
+  );
+    border: 1px solid #F8DACD;
+    border-radius: 4px;
+}
+
+
+#dates {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #FAF4E4;
+	box-shadow: 1px 1px #F8DACD;
+}
+
+#invited-speakers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.spk {
+	margin-top:5px;
+	margin-bottom:25px;
+    text-align: center;
+    /*background-color: greenyellow;*/
+    min-width: 200px;
+    max-width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.spk-name {
+	font-size: 1.15em;
+	font-weight: 500;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.spk-affil {
+	font-size: 0.85em;
+	color:#444;
+	padding: 0;
+	font-weight: 300;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+
+#home-logos {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#home-logos img { }
+
+.subt {
+	font-size: 18pt;
+}
+
+/********************************************************************/
+
+.cald {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cald td {
+    text-align: center;
+    font-weight: 300;
+    padding: 5px 4px;
+    
+}
+.cald th {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+
+nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+	display: flex;
+}
+
+nav a {
+	text-decoration: none;
+    font-weight: 400;
+		margin-left: 20px;
+		display: flex;
+		justify-items: center;
+		align-content: center;
+		justify-content: center;
+}
+
+.nav-div {
+	text-decoration: none;
+	padding: 7px 14px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	background-color: #fff6e6;
+	box-shadow: 1px 1px #f29f05;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+	/*! font-weight: 300; */
+}
+
+.nav-div:hover {
+	background-color: #ffe6b8;
+}
+
+
+/********************************************************************/
+
+.email-a {
+	text-decoration:none;
+	font-size: 13pt;
+	font-weight: bold;
+	color: black;
+	padding: 0;
+}
+
+.email-div {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 1px;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+	/*! max-width: 300px; */
+	/*! text-align: center; */
+}
+
+.email-div:hover {
+	background-color: #ffe6b8;
+}
+
+#info {
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#program1 {
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#program2 {
+	scroll-snap-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.abstract-ws {
+    font-size: 11pt;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 10px;
+}
+
+/********************************************************************/
+
+
+/********************************************************************/
+
+#venue {
+	scroll-snap-align: center;
+}
+
+#venue-right p {
+    font-family: "Source Sans 3";
+	text-align: justify;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Normal screen */
+@media only screen and ((min-width: 901px) and (min-height: 601px)) {
+	
+	#venue-content {
+		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		max-width: 1000px;
+		width: 100%;
+	}
+    
+
+	
+	#venue-left {
+		flex: 40;
+	}
+	
+	#venue-right {
+		flex: 58%;
+	}
+
+}
+
+/* Phone or tablet */
+
+@media only screen and ((max-width: 900px) or (max-height: 600px)) {
+	
+	#venue-content {
+		display: flex;
+		flex-direction: column;
+		max-width: 1000px;
+		width: 100%;
+	}
+	
+	#venue-left {
+		flex: 100%;
+		text-align: center;
+	}
+	
+	#venue-right {
+		flex: 100%;
+		padding: 10px;
+		/*! max-width: 600; */
+	}
+
+}
+
+
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 500ms ease-in;
+}
+.active.fade-left {
+  animation: fade-left 500ms ease-in;
+}
+.active.fade-right {
+  animation: fade-right 500ms ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
