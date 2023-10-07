@@ -87,7 +87,8 @@ ul {
 }
 
 #workshop table {
-     width:100%; text-align: center;
+    text-align: center;
+    width: 100%;
 }
 
 #workshop td {
