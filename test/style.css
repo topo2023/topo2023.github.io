@@ -7,6 +7,7 @@
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+    scroll-padding-top: 50px;
 }
 
 body {
@@ -16,12 +17,21 @@ body {
 	height: 100%;  
 	font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
+    
 }
 
-main {
+main, header {
     margin: 0 auto;
     max-width: 700px;
-    margin-top: 100px;
+    margin-top: 50px;
+    
+}
+
+.dotted {
+    background: white;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
 }
 
 a {
@@ -36,7 +46,7 @@ a {
 
 #home-title-container img {
     margin: 0 auto;
-    max-height: 200px;
+    max-height: 170px;
     max-width: 80%;
 }
 
@@ -65,7 +75,12 @@ h1, h3 {
 
 /********************************************************************/
 
-.abstract {
+section {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.abstract, section > p {
     font-family: "Source Sans 3";
 	font-size: 1em;
 	line-height: 1.5em;
@@ -73,6 +88,7 @@ h1, h3 {
 	hyphens: auto;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -110,18 +126,15 @@ ul {
 /********************************************************************/
 
 #committee {
-    padding-top: 10px;
-    padding-bottom: 30px;
     background: #FAF9F0;
     box-shadow: 1px 1px solid #F4F1DE;
     margin-top: 20px;
 }
 
 #speakers {
-    padding-top: 10px;
-    padding-bottom: 30px;
     background: #EEEBFF;
     box-shadow: 1px 1px solid #DCD6FF;
+    border-radius: 10px;
 }
 
 
@@ -131,6 +144,7 @@ ul {
     margin-bottom: 30px;
     padding-top: 10px;
     padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 #invited-speakers {
@@ -199,24 +213,29 @@ ul {
 
 
 nav {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
 	display: flex;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 10;
+    background: white;
 }
 
 nav a {
 	text-decoration: none;
     margin-left: 20px;
+    font-size: 0.9em;
 }
 
 .register-div {
-    font-size: 1.3em;
+    font-size: 1.25em;
 	text-decoration: underline;
-    text-transform: uppercase;
 	padding: 7px 14px;
 	text-align: center;
 	color: orangered;
@@ -291,68 +310,7 @@ nav a {
 #venue {
 	scroll-snap-align: center;
 }
-
-#venue-right p {
-    font-family: "Source Sans 3";
-	text-align: justify;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-
-#arrive p {
-    font-family: "Source Sans 3";
-	text-align: justify;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-
-/* Normal screen */
-@media only screen and ((min-width: 901px) and (min-height: 601px)) {
-	
-	#venue-content {
-		display: flex;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		max-width: 1000px;
-		width: 100%;
-	}
-    
-
-	
-	#venue-left {
-		flex: 40;
-	}
-	
-	#venue-right {
-		flex: 58%;
-	}
-
-}
-
-/* Phone or tablet */
-
-@media only screen and ((max-width: 900px) or (max-height: 600px)) {
-	
-	#venue-content {
-		display: flex;
-		flex-direction: column;
-		max-width: 1000px;
-		width: 100%;
-	}
-	
-	#venue-left {
-		flex: 100%;
-		text-align: center;
-	}
-	
-	#venue-right {
-		flex: 100%;
-		padding: 10px;
-		/*! max-width: 600; */
-	}
-
-}
+ 
 
 
 
@@ -384,38 +342,4 @@ nav a {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip:hover{
-    cursor: pointer;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  color: black;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  border: 1px solid black;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-  background-color: lightgoldenrodyellow;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
 }
