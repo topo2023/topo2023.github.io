@@ -155,12 +155,12 @@ ul {
 }
 
 .spk {
-	margin-top:5px;
-	margin-bottom:25px;
     text-align: center;
     /*background-color: greenyellow;*/
-    min-width: 200px;
+    min-width: 180px;
     max-width: 240px;
+	margin-top:5px;
+	margin-bottom:25px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
@@ -213,16 +213,14 @@ ul {
 
 
 nav {
-	margin-top: 10px;
-	margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    height: 40px;
 	justify-content: center;
 	align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
 	display: flex;
-    position: sticky;
-    top: 0;
-    height: 50px;
     z-index: 10;
     background: white;
 }
@@ -231,6 +229,8 @@ nav a {
 	text-decoration: none;
     margin-left: 20px;
     font-size: 0.9em;
+    font-weight: 400;
+	text-decoration: underline;
 }
 
 .register-div {
