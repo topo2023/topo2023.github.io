@@ -20,18 +20,11 @@ body {
     
 }
 
-main, header {
+main {
     margin: 0 auto;
     max-width: 700px;
     margin-top: 30px;
     
-}
-
-.dotted {
-    background: white;
-  background-image: radial-gradient(black 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
 }
 
 a {
@@ -77,7 +70,7 @@ h1, h3 {
     text-transform: uppercase;
     margin: 10px;
     letter-spacing: 0.1em;
-    line-height: 1.3em;
+    line-height: 1.7em;
 }
 
 
@@ -223,31 +216,46 @@ ul {
 nav {
     position: sticky;
     top: 0;
-    height: 40px;
+    height: 60px;
 	justify-content: center;
 	align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
 	display: flex;
     z-index: 10;
-    background: white;
+    background: #f8f8f8;
 }
 
 nav a {
-	text-decoration: none;
     margin-left: 20px;
     font-weight: 400;
-	text-decoration: underline;
+    text-decoration: none;
+    color: #24376d;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
+    nav a {
+        font-size: 0.55em;
+        min-width: 5px;
+        padding-top:5px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media only screen and (min-width:450px) and (max-width: 620px) {
+    nav a {
+        font-size: 0.75em;
+        min-width: 5px;
+        padding-top:5px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 620px) {
     nav a {
         font-size: 0.9em;
-    }
-}
-@media only screen and (min-width: 600px) {
-    nav a {
-        font-size: 1.15em;
     }
 }
 
@@ -256,11 +264,20 @@ nav a {
 	text-decoration: underline;
 	padding: 7px 14px;
 	text-align: center;
-	color: orangered;
+	/*! color: orangered; */
     font-weight: 400;
 }
 
-.register-div:hover {
+.register-div a {
+  color: red;
+	-webkit-transition: color 300ms linear;
+	-moz-transition: color 300ms linear;
+	-o-transition: color 300ms linear;
+	-ms-transition: color 300ms linear;
+	transition: color 300ms linear;
+}
+
+.register-div a:hover {
     color: black;
 }
 
@@ -342,18 +359,20 @@ nav a {
   }
 }
 
-
-
-
 .participants-div {
-    text-align: center; margin: 5px 10px; width: 180px;
+	text-align: center;
+	margin: 6px 13px;
+	width: 146px;
 }
 
 .participants-name {
-    font-size: 1.1em;font-weight: 400; margin-bottom: 4px;
+	font-size: 1.0em;
+	font-weight: 400;
+	margin-bottom: 4px;
 }
 
 .participants-data {
-    font-size:0.8em; margin-top: 2px; margin-bottom: 0px;
+    font-size:0.8em; margin-top: -2px; margin-bottom: 0px;
     font-family: "Source Sans 3";
+    color: #737373;
 }
