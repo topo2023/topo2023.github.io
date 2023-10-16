@@ -341,3 +341,19 @@ nav a {
     opacity: 1;
   }
 }
+
+
+
+
+.participants-div {
+    text-align: center; margin: 5px 10px; width: 180px;
+}
+
+.participants-name {
+    font-size: 1.1em;font-weight: 400; margin-bottom: 4px;
+}
+
+.participants-data {
+    font-size:0.8em; margin-top: 2px; margin-bottom: 0px;
+    font-family: "Source Sans 3";
+}
