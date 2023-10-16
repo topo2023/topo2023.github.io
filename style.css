@@ -129,22 +129,16 @@ ul {
 #committee {
     background: #FAF9F0;
     box-shadow: 1px 1px solid #F4F1DE;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 #speakers {
     background: #EEEBFF;
     box-shadow: 1px 1px solid #DCD6FF;
-    border-radius: 10px;
-}
-
-
-
-#committee {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
     border-radius: 10px;
 }
 
@@ -269,12 +263,13 @@ nav a {
 }
 
 .register-div a {
-  color: red;
+	color: red;
 	-webkit-transition: color 300ms linear;
 	-moz-transition: color 300ms linear;
 	-o-transition: color 300ms linear;
 	-ms-transition: color 300ms linear;
 	transition: color 300ms linear;
+	line-height: 1.5em;
 }
 
 .register-div a:hover {
