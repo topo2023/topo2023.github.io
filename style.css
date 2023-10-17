@@ -361,13 +361,15 @@ nav a {
 }
 
 .participants-name {
-	font-size: 1.0em;
+	font-size: 1.05em;
 	font-weight: 400;
 	margin-bottom: 4px;
 }
 
 .participants-data {
-    font-size:0.8em; margin-top: -2px; margin-bottom: 0px;
+    font-size:0.8em;
+	margin-top: -2px;
+	margin-bottom: 0px;
     font-family: "Source Sans 3";
     color: #737373;
 }
