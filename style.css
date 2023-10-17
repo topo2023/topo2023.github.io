@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
@@ -120,54 +122,85 @@ ul {
 /********************************************************************/
 
 #committee {
-	background: #FAF9F0;
-	box-shadow: 1px 1px solid #F4F1DE;
-	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	border-radius: 10px;
+    background: #EEEBFF;
+    box-shadow: 1px 1px solid #F4F1DE;
+    margin-top: 20px;
 }
 
 #speakers {
-	background: #EEEBFF;
-	box-shadow: 1px 1px solid #DCD6FF;
-	border-radius: 10px;
+    /*! background: #FAF9F0; */
+    box-shadow: 1px 1px solid #DCD6FF;
+    border-radius: 10px;
 }
 
-#invited-speakers {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+#speakers p {
+    text-align: center !important;
+}
+
+
+#committee {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.invited-speakers, .invited-lecturers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*! align-items: center; */
+    margin: 0;
 }
 
 .spk {
-	text-align: center;
-	min-width: 180px;
-	max-width: 240px;
-	margin-top: 5px;
-	margin-bottom: 25px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 0;
+    text-align: center;
+    /*background-color: greenyellow;*/
+    min-width: 180px;
+    max-width: 240px;
+	margin-top:10px;
+	margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
 }
 
-.spk-name {
-	font-size: 1.15em;
-	font-weight: 500;
-	margin: 0px;
-	margin-bottom: 8px;
+
+.lec {
+    text-align: center;
+    /*background-color: greenyellow;*/
+    width: 231px;
+    /*! max-width: 267px; */
+	margin-top:10px;
+	margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
 }
 
-.spk-affil {
-	font-size: 0.85em;
+.spk-name, .lec-name {
+	font-size: 1.3em;
+	font-weight: 400;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.lec-title {
+font-family: "Old Standard TT";
+  font-style: italic;
+  font-size: 0.95em;
+  margin: 5px;
+}
+
+.spk-affil, .lec-affil {
+	font-size: 0.8em;
 	color:#444;
 	padding: 0;
 	font-weight: 300;
-	margin: 0px;
-	text-transform: uppercase;
+    margin: 0px;
+    text-transform: uppercase;
 }
-
 
 #home-logos {
 	text-align: center;
