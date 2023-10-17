@@ -123,14 +123,17 @@ ul {
 
 #committee {
     background: #EEEBFF;
-    box-shadow: 1px 1px solid #F4F1DE;
+    border: 1px solid #DCD6FF;
+    border-radius: 10px;
     margin-top: 20px;
 }
 
 #speakers {
-    /*! background: #FAF9F0; */
-    box-shadow: 1px 1px solid #DCD6FF;
-    border-radius: 10px;
+	background: #FAF9F0;
+	border: 1px solid #F4F1DE;
+	border-radius: 10px;
+	padding-bottom: 42px;
+	margin-top: 30px;
 }
 
 #speakers p {
