@@ -2,12 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
-/********************************************************************/
-
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-    scroll-padding-top: 50px;
+	scroll-padding-top: 65px;
 }
 
 body {
@@ -16,15 +14,13 @@ body {
 	width: 100%;
 	height: 100%;  
 	font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    
+	font-weight: 300;
 }
 
 main {
-    margin: 0 auto;
-    max-width: 700px;
-    margin-top: 30px;
-    
+	margin: 0 auto;
+	max-width: 700px;
+	margin-top: 30px;
 }
 
 a {
@@ -32,23 +28,20 @@ a {
 	color: black;
 }
 
-	
 #home-title-container {
-    text-align: center;
+	text-align: center;
 }
 
 #home-title-container img {
-    margin: 0 auto;
-    max-height: 170px;
-    max-width: 80%;
+	margin: 0 auto;
+	max-height: 170px;
+	max-width: 80%;
 }
 
-
-
 #venue img {
-    margin: 0 auto;
-    max-height: 400px;
-    max-width: 100%;
+	margin: 0 auto;
+	max-height: 400px;
+	max-width: 100%;
 }
 
 h2 {
@@ -56,10 +49,10 @@ h2 {
 	color: black;
 	font-weight: 300;
 	text-align: center; /* or justify */
-    text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-decoration: underline;
 }
 
 h1, h3 {
@@ -67,105 +60,104 @@ h1, h3 {
 	color: black;
 	font-weight: 300;
 	text-align: center; /* or justify */
-    text-transform: uppercase;
-    margin: 10px;
-    letter-spacing: 0.1em;
-    line-height: 1.7em;
+	text-transform: uppercase;
+	margin: 10px;
+	letter-spacing: 0.1em;
+	line-height: 1.7em;
 }
 
 
 /********************************************************************/
 
 section {
-    padding-top: 10px;
-    padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 .abstract, section > p {
-    font-family: "Source Sans 3";
+	font-family: "Source Sans 3";
 	font-size: 1em;
 	line-height: 1.5em;
 	text-align: justify;
 	hyphens: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 10px;
 }
 
 
 ul {
-    font-family: "Source Sans 3";
+	font-family: "Source Sans 3";
 	font-size: 1em;
 	line-height: 1.5em;
 	text-align: justify;
 	hyphens: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 #workshop table {
-    text-align: center;
-    width: 100%;
+	text-align: center;
+	width: 100%;
 }
 
 #workshop td {
-     min-width: 90px;
-     max-width: 100px;
-    font-family: "Source Sans 3";
-    padding: 15px 3px;
+	min-width: 90px;
+	max-width: 100px;
+	font-family: "Source Sans 3";
+	padding: 15px 3px;
     
 }
 #workshop tr:nth-of-type(even) { 
-    background-color:beige;
+	background-color: beige;
 }
 
 #workshop th {
-    font-weight: 300;
-     max-width: 100px;
+	font-weight: 300;
+	max-width: 100px;
 }
 
 /********************************************************************/
 
 #committee {
-    background: #FAF9F0;
-    box-shadow: 1px 1px solid #F4F1DE;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    border-radius: 10px;
+	background: #FAF9F0;
+	box-shadow: 1px 1px solid #F4F1DE;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 10px;
 }
 
 #speakers {
-    background: #EEEBFF;
-    box-shadow: 1px 1px solid #DCD6FF;
-    border-radius: 10px;
+	background: #EEEBFF;
+	box-shadow: 1px 1px solid #DCD6FF;
+	border-radius: 10px;
 }
 
 #invited-speakers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .spk {
-    text-align: center;
-    /*background-color: greenyellow;*/
-    min-width: 180px;
-    max-width: 240px;
-	margin-top:5px;
-	margin-bottom:25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
+	text-align: center;
+	min-width: 180px;
+	max-width: 240px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0;
 }
 
 .spk-name {
 	font-size: 1.15em;
 	font-weight: 500;
-    margin: 0px;
-    margin-bottom: 8px;
+	margin: 0px;
+	margin-bottom: 8px;
 }
 
 .spk-affil {
@@ -173,8 +165,8 @@ ul {
 	color:#444;
 	padding: 0;
 	font-weight: 300;
-    margin: 0px;
-    text-transform: uppercase;
+	margin: 0px;
+	text-transform: uppercase;
 }
 
 
@@ -190,76 +182,74 @@ ul {
 /********************************************************************/
 
 .cald {
-    margin-left: 10px;
-    margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .cald td {
-    text-align: center;
-    font-weight: 300;
-    padding: 5px 4px;
+	text-align: center;
+	font-weight: 300;
+	padding: 5px 4px;
     
 }
 .cald th {
-    text-align: center;
-    font-weight: 300;
-    font-size: 0.8em;
+	text-align: center;
+	font-weight: 300;
+	font-size: 0.8em;
 }
 
+/********************************************************************/
 
 nav {
-    position: sticky;
-    top: 0;
-    height: 60px;
+	position: sticky;
+	top: 0;
+	height: 60px;
 	justify-content: center;
 	align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+	flex-wrap: wrap;
+	flex-direction: row;
 	display: flex;
-    z-index: 10;
-    background: #f8f8f8;
+	z-index: 10;
+	background: #f8f8f8;
 }
 
 nav a {
-    margin-left: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #24376d;
+	margin-left: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #24376d;
 }
 
 @media only screen and (max-width: 450px) {
-    nav a {
-        font-size: 0.55em;
-        min-width: 5px;
-        padding-top:5px;
-        margin-left: 10px;
-    }
-    
+	nav a {
+		font-size: 0.55em;
+		min-width: 5px;
+		padding-top:5px;
+		margin-left: 10px;
+	}
 }
 
 @media only screen and (min-width:450px) and (max-width: 620px) {
-    nav a {
-        font-size: 0.75em;
-        min-width: 5px;
-        padding-top:5px;
-        margin-left: 10px;
-    }
-    
+	nav a {
+		font-size: 0.75em;
+		min-width: 5px;
+		padding-top:5px;
+		margin-left: 10px;
+	}
 }
 
 @media only screen and (min-width: 620px) {
-    nav a {
-        font-size: 0.9em;
-    }
+	nav a {
+		font-size: 0.9em;
+	}
 }
 
 .register-div {
-    font-size: 1.25em;
+	font-size: 1.25em;
 	text-decoration: underline;
 	padding: 7px 14px;
 	text-align: center;
-	/*! color: orangered; */
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .register-div a {
@@ -273,7 +263,7 @@ nav a {
 }
 
 .register-div a:hover {
-    color: black;
+	color: black;
 }
 
 
@@ -306,7 +296,6 @@ nav a {
 }
 
 #info {
-	scroll-snap-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -314,44 +303,36 @@ nav a {
 
 /********************************************************************/
 
-
-/********************************************************************/
-
-#venue {
-	scroll-snap-align: center;
-}
- 
-
-
-
-
 .reveal {
-  position: relative;
-  opacity: 0;
+	position: relative;
+	opacity: 0;
 }
 
 .reveal.active {
-  opacity: 1;
+	opacity: 1;
 }
+
 .active.fade-bottom {
-  animation: fade-bottom 500ms ease-in;
+	animation: fade-bottom 500ms ease-in;
 }
+
 .active.fade-left {
-  animation: fade-left 500ms ease-in;
+	animation: fade-left 500ms ease-in;
 }
+
 .active.fade-right {
-  animation: fade-right 500ms ease-in;
+	animation: fade-right 500ms ease-in;
 }
 
 @keyframes fade-bottom {
-  0% {
-    transform: translateY(40px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+	0% {
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 .participants-div {
@@ -367,9 +348,9 @@ nav a {
 }
 
 .participants-data {
-    font-size:0.8em;
+	font-family: "Source Sans 3";
+	font-size: 0.8em;
 	margin-top: -2px;
 	margin-bottom: 0px;
-    font-family: "Source Sans 3";
-    color: #737373;
+	color: #737373;
 }
