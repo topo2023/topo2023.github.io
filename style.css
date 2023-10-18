@@ -150,50 +150,46 @@ ul {
 }
 
 .invited-speakers, .invited-lecturers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*! align-items: center; */
-    margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
 }
 
 .spk {
-    text-align: center;
-    /*background-color: greenyellow;*/
-    min-width: 180px;
-    max-width: 240px;
+	text-align: center;
+	min-width: 180px;
+	max-width: 240px;
 	margin-top:10px;
 	margin-bottom:10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0;
 }
 
 
 .lec {
-    text-align: center;
-    /*background-color: greenyellow;*/
-    width: 231px;
-    /*! max-width: 267px; */
+	text-align: center;
+	width: 215px;
 	margin-top:10px;
 	margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0;
 }
 
 .spk-name, .lec-name {
 	font-size: 1.3em;
 	font-weight: 400;
-    margin: 0px;
-    margin-bottom: 8px;
+	margin: 0px;
+	margin-bottom: 8px;
 }
 
 .lec-title {
-font-family: "Old Standard TT";
-  font-style: italic;
-  font-size: 0.95em;
-  margin: 5px;
+	font-family: "Old Standard TT";
+	font-style: italic;
+	font-size: 0.95em;
+	margin: 5px;
 }
 
 .spk-affil, .lec-affil {
@@ -201,8 +197,8 @@ font-family: "Old Standard TT";
 	color:#444;
 	padding: 0;
 	font-weight: 300;
-    margin: 0px;
-    text-transform: uppercase;
+	margin: 0px;
+	text-transform: uppercase;
 }
 
 #home-logos {
