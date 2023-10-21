@@ -137,16 +137,16 @@ ul {
 }
 
 #speakers p {
-    text-align: center !important;
+	text-align: center !important;
 }
 
 
 #committee {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 10px;
 }
 
 .invited-speakers, .invited-lecturers {
@@ -318,8 +318,6 @@ nav a {
 	-o-transition: background-color 500ms linear;
 	-ms-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
-	/*! max-width: 300px; */
-	/*! text-align: center; */
 }
 
 .email-div:hover {
