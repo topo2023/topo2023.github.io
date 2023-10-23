@@ -30,6 +30,11 @@ a {
 	color: black;
 }
 
+sup {
+	vertical-align: top;
+	font-size: 0.6em;
+}
+
 #home-title-container {
 	text-align: center;
 }
