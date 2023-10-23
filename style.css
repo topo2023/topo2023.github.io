@@ -103,27 +103,14 @@ ul {
 	margin-right: 50px;
 }
 
-#workshop table {
-	text-align: center;
-	width: 100%;
-}
 
-#workshop td {
-	min-width: 90px;
-	max-width: 100px;
-	font-family: "Source Sans 3";
-	padding: 15px 3px;
-    
+#program {
+	background: #FAF9F0;
+	border: 1px solid #F4F1DE;
+	border-radius: 10px;
+	padding-bottom: 42px;
+	margin-top: 30px;
 }
-#workshop tr:nth-of-type(even) { 
-	background-color: beige;
-}
-
-#workshop th {
-	font-weight: 300;
-	max-width: 100px;
-}
-
 
 #program table, #nextweek table {
 	text-align: center;
@@ -206,10 +193,6 @@ ul {
 
 #speakers p {
 	text-align: center !important;
-}
-
-
-#committee {
 }
 
 .invited-speakers, .invited-lecturers {
