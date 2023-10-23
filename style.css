@@ -119,6 +119,66 @@ ul {
 	max-width: 100px;
 }
 
+
+#program table, #nextweek table {
+	text-align: center;
+	width: 100%;
+}
+
+#program td, #nextweek td {
+	font-family: "Source Sans 3";
+	padding: 10px 3px;
+	min-width: 70px;
+	/*! max-width: 100px; */
+    
+}
+
+#program th, #nextweek th {
+	font-weight: 300;
+}
+
+.td-spk1 {
+    border-top: 1px solid #ddd; /* #a1d9b4; */
+    border-left: 1px solid #ddd; /* #a1d9b4; */
+    border-right: 1px solid #ccc; /* #a1d9b4; */
+    border-bottom: 1px solid #ccc; /* #a1d9b4; */
+    background-color: #fff;
+    /*! font-weight: 400; */
+}
+
+.td-spk2 {
+    border-top: 1px solid #ddd; /* #a1d9b4; */
+    border-left: 1px solid #ddd; /* #a1d9b4; */
+    border-right: 1px solid #ccc; /* #a1d9b4; */
+    border-bottom: 1px solid #ccc; /* #a1d9b4; */
+    background-color: #fff;
+}
+
+.td-spk3 {
+    border-top: 1px solid #ddd; /* #a1d9b4; */
+    border-left: 1px solid #ddd; /* #a1d9b4; */
+    border-right: 1px solid #ccc; /* #a1d9b4; */
+    border-bottom: 1px solid #ccc; /* #a1d9b4; */
+  background-color: #fff;
+}
+
+.td-spk4 {
+    border-top: 1px solid #ddd; /* #a1d9b4; */
+    border-left: 1px solid #ddd; /* #a1d9b4; */
+    border-right: 1px solid #ccc; /* #a1d9b4; */
+    border-bottom: 1px solid #ccc; /* #a1d9b4; */
+  background-color: #fff;
+}
+
+.td-event {
+    border-top: 1px solid #ddd; /* #a1d9b4; */
+    border-left: 1px solid #ddd; /* #a1d9b4; */
+    border-right: 1px solid #ccc; /* #a1d9b4; */
+    border-bottom: 1px solid #ccc; /* #a1d9b4; */
+  background-color: #fff;
+}
+
+
 /********************************************************************/
 
 #committee {
