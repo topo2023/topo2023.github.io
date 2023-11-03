@@ -172,6 +172,19 @@ td {
     border-bottom: 1px dotted #ccc; /* #a1d9b4; */
 }
 
+
+.progr-spk-name {
+    list-style-type: circle;
+    margin-bottom: 1px;
+    font-weight: 400;
+}
+
+.progr-spk-talk {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
 /********************************************************************/
 
 #committee {
