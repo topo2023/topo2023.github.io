@@ -115,6 +115,7 @@ table {
 td {
 	font-family: "Source Sans 3";
 	max-width: 150px;
+	text-align: center;
 }
 
 .td-spk {
@@ -123,8 +124,6 @@ td {
     border-right: 1px solid #ccc; /* #a1d9b4; */
     border-bottom: 1px solid #ccc; /* #a1d9b4; */
     background-color: #fff;
-	/*padding: 10px;*/
-    /*! font-weight: 400; */
 	min-width: 80px;
 }
 
@@ -160,7 +159,7 @@ td {
 
  .td-hour {
 	vertical-align: top;
-	text-align: right;
+	text-align: right !important;
 }
 
 
