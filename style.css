@@ -105,27 +105,16 @@ ul {
 }
 
 table {
-    
-    padding-left: 30px;
-    padding-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
 }
 
 td {
 	font-family: "Source Sans 3";
-	font-size: 0.9em;
 	max-width: 150px;
-}
-
-#program table, #nextweek table {
-	text-align: center;
-	width: 100%;
-}
-
-#program td, #nextweek td {
-}
-
-#program th, #nextweek th {
-	font-weight: 300;
 }
 
 .td-spk {
@@ -170,9 +159,8 @@ td {
 }
 
  .td-hour {
-    /*border-top: 1px dotted #ccc; 
-    border-bottom: 1px dotted #ccc; */
-	 vertical-align: top;
+	vertical-align: top;
+	text-align: right;
 }
 
 
