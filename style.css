@@ -168,8 +168,8 @@ td {
 }
 
  .td-hour {
-    border-top: 1px dotted #ccc; /* #a1d9b4; */
-    border-bottom: 1px dotted #ccc; /* #a1d9b4; */
+    /*border-top: 1px dotted #ccc; 
+    border-bottom: 1px dotted #ccc; */
 	 vertical-align: top;
 }
 
