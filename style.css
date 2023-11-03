@@ -21,7 +21,7 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 700px;
+	max-width: 780px;
 	margin-top: 30px;
 }
 
@@ -147,16 +147,18 @@ td {
 
 
 .td-spk60 {
-    height: 150px;
+    height: 145px;
 }
 
 .td-spk40 {
-    height: 100px;
+    height: 90px;
 }
 
 .td-spk20 {
-    height: 50px;
+    height: 47px;
 }
+
+
 
 
 .td-event {
