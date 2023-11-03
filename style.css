@@ -105,16 +105,16 @@ ul {
 }
 
 table {
-	padding-left: 30px;
-	padding-right: 30px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	width: 100%;
 }
 
 td {
 	font-family: "Source Sans 3";
-	max-width: 150px;
+	max-width: 160px;
 	text-align: center;
 }
 
@@ -135,15 +135,15 @@ td {
 
 
 .td-spk60 {
-    height: 145px;
-}
-
-.td-spk40 {
     height: 90px;
 }
 
+.td-spk40 {
+    height: 60px;
+}
+
 .td-spk20 {
-    height: 47px;
+    height: 30px;
 }
 
 
