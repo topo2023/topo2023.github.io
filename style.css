@@ -118,12 +118,11 @@ td {
 }
 
 .td-spk {
-    border-top: 1px solid #ddd; /* #a1d9b4; */
-    border-left: 1px solid #ddd; /* #a1d9b4; */
-    border-right: 1px solid #ccc; /* #a1d9b4; */
-    border-bottom: 1px solid #ccc; /* #a1d9b4; */
-    background-color: #fff;
+	border: 1px solid #c8c8b8;
+	background-color: #fff;
 	min-width: 80px;
+	box-shadow: 2px 2px #e4e4de;
+	border-radius: 2px;
 }
 
 .td-break {
