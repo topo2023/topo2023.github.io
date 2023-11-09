@@ -122,12 +122,13 @@ td {
 	background-color: #fff;
 	min-width: 80px;
 	box-shadow: 2px 2px #e4e4de;
+	line-height: 1em;
 }
 
 .td-break {
 	padding-top: 15px;
 	padding-bottom: 15px;
-    /*! font-weight: 400; */
+	line-height: 1em;
 }
 
 
